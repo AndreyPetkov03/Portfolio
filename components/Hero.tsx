@@ -1,6 +1,5 @@
-import React from 'react'
-import { Spotlight } from './ui/Spotlight'
-import { TextGenerateEffect } from './TextGenerateEffect'
+import React from 'react';
+import { Spotlight } from './ui/Spotlight';
 import { FlipWords } from './FlipWords';
 import { BackgroundGradient } from './ui/Background-gradient';
 import Image from "next/image";
@@ -8,7 +7,7 @@ import exampleImg from '../public/images/profilePicture2.jpg';
 import MagicButton from './ui/MagicButton';
 import { BackgroundGradientDemo } from './ui/backgroundDemo';
 import { FloatingNav } from './ui/floating-navbar';
-import {navItems} from './navbarVariable.ts';
+import {navItems} from './navbarVariable.js';
 
 
 const Hero = () => {
@@ -46,7 +45,7 @@ const Hero = () => {
         </div> */}
         {/* <Image src={exampleImg} alt="Example Image" width={500} height={300} /> */}
           <p className="tracking-widest text-sm md:text-lg lg:text-2xl text-center text-blue-100 max-w-80 mb-3 mt-10">
-            Hi, I'm Andrey👋
+            Hi, I&apos;m Andrey👋
           </p>
           
           <div className="flex">
