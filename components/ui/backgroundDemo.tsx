@@ -8,7 +8,7 @@ import exampleImg from '../../public/images/profilePicture2.jpg';
 export function BackgroundGradientDemo() {
   return (
     <div>
-      <BackgroundGradient className="rounded-[22px] max-w-sm p-0.5 bg-transparent dark:bg-transparent m-b ">
+      <BackgroundGradient className="rounded-full max-w-sm p-0.5 bg-transparent dark:bg-transparent m-b ">
         <Image
           src={exampleImg}
           alt="jordans"
