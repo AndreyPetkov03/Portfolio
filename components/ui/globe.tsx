@@ -5,7 +5,7 @@ import { useEffect, useRef } from "react";
 // https://github.com/shuding/cobe
 
 export default function Globe() {
-  const canvasRef = useRef();
+  const canvasRef : any = useRef;
 
   useEffect(() => {
     let phi = 0;
