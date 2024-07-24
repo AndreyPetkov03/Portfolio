@@ -12,10 +12,13 @@ import {
 } from "@tabler/icons-react";
 import Globe from "./ui/globe";
 import { GlowingStarsBackgroundCardPreview } from "./ui/glowingStarsDemo";
+import Phone3D from "./ui/Phone3D";
+import CodeSnippet from "./ui/CodeSnippet";
+import { InfiniteMovingCardsDemo } from "./ui/MarqueeDemo";
 //row-span-2
 export function BentoGridDemo() {
   return (
-    <BentoGrid className="max-w-6xl mx-auto">
+    <BentoGrid className="max-w-6xl mx-auto mt-10 relative z-9000">
       {items.map((item, i) => (
         <BentoGridItem
           key={i}
@@ -23,7 +26,7 @@ export function BentoGridDemo() {
           description={item.description}
           header={item.header}
           icon={item.icon}
-          className={i === 3 ? "md:col-span-2 md:row-span-2" : i === 2 ? "md:row-span-2" : ""}
+          className={i === 2 ? "md:col-span-2 md:row-span-2" : i === 1 ? "md:row-span-2" : i === 0 ? "md:col-span-2 text-center" : ""}
         />
       ))}
     </BentoGrid>
@@ -34,34 +37,24 @@ const Skeleton = () => (
 );
 const items = [
   {
-    title: "The Dawn of Innovation",
-    description: "Explore the birth of groundbreaking ideas and inventions.",
-    header: <Skeleton />,
-    icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
+    title: "My Skills",
+    description: "",
+    header: <InfiniteMovingCardsDemo />,
   },
-  {
-    title: "The Digital Revolution",
-    description: "Dive into the transformative power of technology.",
-    header: <Skeleton />,
-    icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
-  },
+  
   {
     title: "Responsive Design",
     description: "My designs adapt to any screen size.",
-    header: <Skeleton />,
-    icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
+    header: <Phone3D />,
   },
   {
-    title: "Multilingual",
-    description:
-      "I speak fluent Bulgarian, German and English",
-    header: <Globe />,
-    icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
+    title: "Commited to Clean and Maintainable Code",
+    description:"I specialize in writing clean, readable, and maintainable code, ensuring high-quality and efficient solutions in every project. My focus on best practices and code simplicity makes my work easy to understand and extend.",
+     header: <CodeSnippet />,
   },
   {
     title: "I ❤️ Coding",
     description: "And so will you my code",
     header: <GlowingStarsBackgroundCardPreview />,
-    icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
   },
 ];

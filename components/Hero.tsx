@@ -45,7 +45,7 @@ const Hero = () => {
         </div> */}
         {/* <Image src={exampleImg} alt="Example Image" width={500} height={300} /> */}
           <p className="tracking-widest text-sm md:text-lg lg:text-2xl text-center text-blue-100 max-w-80 mb-3 mt-10">
-            Hi, I&apos;m Andrey👋
+            Hi, I&apos;m Andrey
           </p>
           
           <div className="flex">

@@ -29,7 +29,7 @@ export const GlowingStarsBackgroundCard = ({
       <div className="flex justify-center items-center">
         <Illustration mouseEnter={mouseEnter} />
       </div>
-      <div className="px-2 pb-6">{children}</div>
+      <div className="">{children}</div>
     </div>
   );
 };
@@ -63,8 +63,8 @@ export const GlowingStarsTitle = ({
 };
 
 export const Illustration = ({ mouseEnter }: { mouseEnter: boolean }) => {
-  const stars = 80;
-  const columns = 10;
+  const stars = 200;
+  const columns = 20;
 
   const [glowingStars, setGlowingStars] = useState<number[]>([]);
 
@@ -83,7 +83,7 @@ export const Illustration = ({ mouseEnter }: { mouseEnter: boolean }) => {
 
   return (
     <div
-      className="h-48 p-1 w-full"
+      className="h-56 p-1 w-full"
       style={{
         display: "grid",
         gridTemplateColumns: `repeat(${columns}, 1fr)`,

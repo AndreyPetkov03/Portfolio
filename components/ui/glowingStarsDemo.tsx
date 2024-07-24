@@ -11,10 +11,6 @@ export function GlowingStarsBackgroundCardPreview() {
     <div className="flex py-0 items-center justify-center antialiased">
       <GlowingStarsBackgroundCard>
         <GlowingStarsTitle></GlowingStarsTitle>
-        <div className="flex justify-between items-end">
-          <GlowingStarsDescription>
-          </GlowingStarsDescription>
-        </div>
       </GlowingStarsBackgroundCard>
     </div>
   );
