@@ -10,8 +10,8 @@ export const InfiniteMovingCards = ({
   pauseOnHover = true,
   className,
 }: {
-  items: {
-    quote: string;
+  items : {
+    quote: React.ReactNode;
     name: string;
     title: string;
   }[];
