@@ -10,7 +10,6 @@ import {
   IconSignature,
   IconTableColumn,
 } from "@tabler/icons-react";
-import Globe from "./ui/globe";
 import { GlowingStarsBackgroundCardPreview } from "./ui/glowingStarsDemo";
 import Phone3D from "./ui/Phone3D";
 import CodeSnippet from "./ui/CodeSnippet";
@@ -25,7 +24,6 @@ export function BentoGridDemo() {
           title={item.title}
           description={item.description}
           header={item.header}
-          icon={item.icon}
           className={i === 2 ? "md:col-span-2 md:row-span-2" : i === 1 ? "md:row-span-2" : i === 0 ? "md:col-span-2 text-center" : ""}
         />
       ))}

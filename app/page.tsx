@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Hero from "@/components/Hero";
 import { BentoGridDemo } from "@/components/BentoGrid";
-import Globe from "@/components/ui/globe";
 import { GlowingStarsBackgroundCardPreview } from "@/components/ui/glowingStarsDemo";
 
 export default function Home() {
