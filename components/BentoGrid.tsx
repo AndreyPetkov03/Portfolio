@@ -30,9 +30,7 @@ export function BentoGridDemo() {
     </BentoGrid>
   );
 }
-const Skeleton = () => (
-  <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-red-500 from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100"></div>
-);
+
 const items = [
   {
     title: "My Skills",

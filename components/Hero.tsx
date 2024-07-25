@@ -49,8 +49,8 @@ const Hero = () => {
           </p>
           
           <div className="flex">
-          <FlipWords className="uppercase text-center md:tracking-wider mb-3 text-lg md:text-2xlg lg:text-4xl text-purple" words={['Front-end', 'Full-stack', 'Software']} duration={3200}/>
-          <p className="uppercase text-center md:tracking-wider mb-3 text-lg md:text-2xlg lg:text-4xl text-purple">Developer</p>
+          <FlipWords className="uppercase text-center md:tracking-wider mb-3 text-lg md:text-2xl lg:text-4xl text-purple" words={['Front-end', 'Full-stack', 'Software']} duration={3200}/>
+          <p className="uppercase text-center md:tracking-wider mb-3 text-lg md:text-2xl lg:text-4xl text-purple">Developer</p>
           </div>
           
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-base lg:text-lg">
