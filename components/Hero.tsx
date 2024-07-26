@@ -23,9 +23,7 @@ const Hero = () => {
         className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
        absolute top-0 left-0 flex items-center justify-center"
       >
-        {/* Radial gradient for the container to give a faded look */}
         <div
-          // chnage the bg to bg-black-100, so it matches the bg color and will blend in
           className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100
          bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
         />
@@ -36,14 +34,6 @@ const Hero = () => {
           
         <FloatingNav navItems={navItems}/>
         <BackgroundGradientDemo />
-        
-        {/* <div className="relative inline-flex h-35 overflow-hidden rounded-full p-[3px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 mb-9">
-           <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-           <span className="inline-flex h-full w-full items-center justify-center rounded-full bg-slate-950  text-sm font-medium text-white backdrop-blur-3xl">
-             <Image src={exampleImg} alt="Example Image" width={300} height={200} className="rounded-full" />
-           </span>
-        </div> */}
-        {/* <Image src={exampleImg} alt="Example Image" width={500} height={300} /> */}
           <p className="tracking-widest text-sm md:text-lg lg:text-2xl text-center text-blue-100 max-w-80 mb-3 mt-10">
             Hi, I&apos;m Andrey
           </p>

@@ -15,35 +15,35 @@ const people = [
   {
     id: 1,
     name: "",
-    designation: "Software Engineer",
+    designation: "React",
     image:
       ReactLogo,
   },
   {
     id: 2,
     name: "",
-    designation: "Product Manager",
+    designation: "Tailwind",
     image:
       TailwindLogo,
   },
   {
     id: 3,
     name: "",
-    designation: "Data Scientist",
+    designation: "Nextjs",
     image:
       NextjsLogo,
   },
   {
     id: 4,
     name: "",
-    designation: "UX Designer",
+    designation: "Typescript",
     image:
       TypescriptLogo,
   },
   {
     id: 5,
     name: "",
-    designation: "UX Designer",
+    designation: "Framer Motion",
     image:
       FramerMotionLogo,
   },

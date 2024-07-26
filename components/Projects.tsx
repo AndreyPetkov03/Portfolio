@@ -6,7 +6,7 @@ import { Project4 } from "./ui/Project4";
 
 export default function Projects() {
     return (
-        <div>
+        <div className="bg-[url('../public/images/background2.png')] bg-cover bg-center">
             <h1 className="text-2xl md:text-3xl lg:text-4xl text-center pt-28 ">A small selection of <span className="text-purple">recent projects</span></h1>
 
                 <div className="flex flex-wrap align-middle justify-evenly max-w-6xl mx-auto">

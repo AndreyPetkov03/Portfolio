@@ -17,7 +17,8 @@ import { InfiniteMovingCardsDemo } from "./ui/MarqueeDemo";
 //row-span-2
 export function BentoGridDemo() {
   return (
-    <BentoGrid className="max-w-6xl mx-auto mt-10 relative z-9000">
+    <div className="bg-[url('../public/images/background1.png')] bg-cover bg-center w-full relative z-9000 ">
+    <BentoGrid className=" max-w-6xl mx-auto mt-10 relative z-9000 ">
       {items.map((item, i) => (
         <BentoGridItem
           key={i}
@@ -28,6 +29,7 @@ export function BentoGridDemo() {
         />
       ))}
     </BentoGrid>
+    </div>
   );
 }
 

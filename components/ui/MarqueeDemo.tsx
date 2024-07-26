@@ -12,6 +12,9 @@ import PhpLogo from '../../public/LOGOS/PHP-logo.svg.png';
 import ViteLogo from '../../public/LOGOS/Vitejs-logo.svg.png';
 import TypescriptLogo from '../../public/LOGOS/Typescript_logo_2020.svg.png';
 import NextjsLogo from '../../public/LOGOS/NextjsLogo.webp';
+import FramerMotionLogo from '../../public/LOGOS/framer-motion.svg';
+import FigmaLogo from '../../public/LOGOS/figma.png';
+import gitLogo from '../../public/LOGOS/git.png';
 
 
 export function InfiniteMovingCardsDemo() {
@@ -71,7 +74,22 @@ const testimonials = [
     title: "",
   },
   {
-    quote: <Image src={NextjsLogo} alt="NextjsLog" />,
+    quote: <Image src={NextjsLogo} alt="NextjsLogo" />,
+    name: "",
+    title: "",
+  },
+  {
+    quote: <Image src={FigmaLogo} alt="FigmaLogo" />,
+    name: "",
+    title: "",
+  },
+  {
+    quote: <Image src={gitLogo} alt="gitLogo" />,
+    name: "",
+    title: "",
+  },
+  {
+    quote: <Image src={FramerMotionLogo} alt="Framermotion" />,
     name: "",
     title: "",
   },
