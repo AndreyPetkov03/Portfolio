@@ -5,7 +5,7 @@ import React from "react";
 import { CardBody, CardContainer, CardItem } from "./Card";
 import Link from "next/link";
 import PortfolioPic from '../../public/images/Portfolio.png';
-import { AnimatedTooltipPreview } from "./Tooltip";
+import { AnimatedTooltip2, AnimatedTooltipPreview } from "./Tooltip";
 import UnknownImage from '../../public/images/Unknown.png';
 
 export function Project2() {
@@ -36,13 +36,13 @@ export function Project2() {
         </CardItem>
         
         <div className="flex justify-between items-center mt-20">
-          {/* <CardItem
+          <CardItem
             translateZ={20}
             
-            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+            className=" rounded-xl text-xs font-normal dark:text-white"
           >
-            <AnimatedTooltipPreview/>
-          </CardItem> */}
+            <AnimatedTooltip2/>
+          </CardItem>
           
         </div>
       </CardBody>

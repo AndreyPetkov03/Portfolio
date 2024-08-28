@@ -15,11 +15,12 @@ import NextjsLogo from '../../public/LOGOS/NextjsLogo.webp';
 import FramerMotionLogo from '../../public/LOGOS/framer-motion.svg';
 import FigmaLogo from '../../public/LOGOS/figma.png';
 import gitLogo from '../../public/LOGOS/git.png';
+import dockerLogo from '../../public/LOGOS/Docker.svg';
 
 
 export function InfiniteMovingCardsDemo() {
   return (
-    <div className=" h-[20rem] rounded-md flex flex-col antialiased bg-white dark:bg-black items-center justify-center relative overflow-hidden">
+    <div className=" h-[20rem] rounded-md flex flex-col antialiased bg-black items-center justify-center relative overflow-hidden">
       <InfiniteMovingCards
         items={testimonials}
         direction="right"
@@ -90,6 +91,11 @@ const testimonials = [
   },
   {
     quote: <Image src={FramerMotionLogo} alt="Framermotion" />,
+    name: "",
+    title: "",
+  },
+  {
+    quote: <Image src={dockerLogo} alt="Docker" />,
     name: "",
     title: "",
   },
