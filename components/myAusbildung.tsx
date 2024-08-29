@@ -5,23 +5,29 @@ import { StickyScroll } from "./ui/myAusbildungFunctionality";
 
 const content = [
   {
-    title: "Collaborative Editing",
+    title: "How it started",
     description:
-      "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity.",
+      "Since childhood, I have been drawn to building things and exploring technology, so pursuing a career in tech was a natural choice for me. In 2023, I began my apprenticeship as a Developer at the international repair service, where I gained comprehensive knowledge and hands-on experience in development.",
     content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-        Collaborative Editing
-      </div>
+      <div className="h-full w-full flex items-center justify-center text-white">
+      <Image
+        src="/images/irs-building.png"
+        width={300}
+        height={300}
+        className="h-full w-full object-cover"
+        alt="linear board demo"
+      />
+    </div>
     ),
   },
   {
-    title: "Real time changes",
+    title: "1st Year",
     description:
-      "See changes as they happen. With our platform, you can track every modification in real time. No more confusion about the latest version of your project. Say goodbye to the chaos of version control and embrace the simplicity of real-time updates.",
+      "I started my apprenticeship with little to no knowledge of programming. However, through hard work, dedication, and resources like freeCodeCamp, Mimo, and YouTube tutorials, I quickly mastered JavaScript.",
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         <Image
-          src="/linear.webp"
+          src="/images/To-do-List.png"
           width={300}
           height={300}
           className="h-full w-full object-cover"
@@ -31,7 +37,7 @@ const content = [
     ),
   },
   {
-    title: "Version control",
+    title: "2nd Year",
     description:
       "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
     content: (
@@ -41,9 +47,19 @@ const content = [
     ),
   },
   {
-    title: "Running out of content",
+    title: "3rd Year",
     description:
       "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+    content: (
+      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
+        Running out of content
+      </div>
+    ),
+  },
+  {
+    title: "After the apprenticeship",
+    description:
+      "Although my apprenticeship may be coming to an end, my journey has only just begun. I have a long road ahead to mastering web development. My current goal is to become a Senior Developer, and perhaps one day, own my own software company.",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
         Running out of content
@@ -53,8 +69,11 @@ const content = [
 ];
 export function MyAusbildung() {
   return (
+    <div>
+    <h1 className="text-2xl md:text-3xl lg:text-4xl text-center pt-28 ">My <span className="text-purple">apprenticeship</span></h1>
     <div className="py-14">
       <StickyScroll content={content} />
+    </div>
     </div>
   );
 }

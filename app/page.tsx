@@ -2,6 +2,7 @@ import Hero from "@/components/Hero";
 import { BentoGridDemo } from "@/components/BentoGrid";
 import Projects from "@/components/Projects";
 import { MyAusbildung } from "@/components/myAusbildung";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -9,8 +10,9 @@ export default function Home() {
       <div className=" w-full">
         <Hero />
         <BentoGridDemo />
-        <Projects />
         <MyAusbildung />
+        <Projects />
+        <Footer />
       </div>
       
     </main>
