@@ -12,7 +12,7 @@ import {navItems} from './navbarVariable.js';
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-0">
+    <div className="pb-20 pt-0" id="home">
       <div>
         <Spotlight className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen" fill="white"/>
         <Spotlight className="top-10 left-full h-[80vh] w-[50vw]" fill="purple"/>
@@ -47,7 +47,7 @@ const Hero = () => {
             A passionate Frontend / Fullstack web developer and UI/UX enthusiast specialized in building stunning pixel-perfect interactive websites/applications
           </p>
 
-          <a href="#about">
+          <a href="#contact">
             <MagicButton/>
           </a>
           

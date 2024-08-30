@@ -23,7 +23,7 @@ const content = [
   {
     title: "1st Year",
     description:
-      "I started my apprenticeship with little to no knowledge of programming. However, through hard work, dedication, and resources like freeCodeCamp, Mimo, and YouTube tutorials, I quickly mastered JavaScript.",
+      "I started my apprenticeship with little to no knowledge of programming. However, through hard work, dedication, and resources like freeCodeCamp, Mimo, and YouTube tutorials, I quickly conquered JavaScript.",
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         <Image
@@ -69,8 +69,8 @@ const content = [
 ];
 export function MyAusbildung() {
   return (
-    <div>
-    <h1 className="text-2xl md:text-3xl lg:text-4xl text-center pt-28 ">My <span className="text-purple">apprenticeship</span></h1>
+    <div id="work">
+    <h1 className="text-2xl md:text-3xl lg:text-4xl text-center pt-28 ">My <span className="text-purple">Apprenticeship</span></h1>
     <div className="py-14">
       <StickyScroll content={content} />
     </div>

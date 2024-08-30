@@ -6,12 +6,7 @@ import goodCode from '../../public/images/Good code.jpeg';
 
 export default function CodeSnippet() {
     return (
-      <main className="w-full h-full rounded-xl flex justify-end items-center">
-        {/* <Image
-          src={codeSnippet}
-          alt="Code Snippet"
-          className="object-contain rounded-xl"
-        /> */}
+      <main className="w-full h-[25rem] md:h-full rounded-xl flex justify-end items-center">
         <Compare
         firstImage= '/images/Good code.jpeg'
         secondImage= '/images/Bad code.jpeg'
