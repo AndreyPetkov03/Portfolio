@@ -32,7 +32,7 @@ export function Project2() {
           translateZ="60"
           className="text-neutral-500 text-sm w-full h-20  mt-2 dark:text-neutral-300"
         >
-          This Project is not done yet.
+          This project will be an RPG, a Pokémon-like turn-based game where you fight fantasy monsters such as slimes, goblins, and orcs to save the princess. 
         </CardItem>
         
         <div className="flex justify-between items-center mt-20">
