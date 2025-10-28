@@ -39,7 +39,7 @@ const content = [
   {
     title: "2nd Year",
     description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+      "During my second year, I expanded my skill set into modern front-end development, exploring TypeScript, React, Next.js, and Tailwind. With this new knowledge, I had the opportunity to take on my first major project: developing the company’s internal intranet platform — a place for colleagues to connect and interact. Leading this project helped me deepen my understanding of building scalable, user-centered applications. It was a defining step where I transitioned from learning concepts to applying them in impactful, real-world solutions.",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
         Version control
