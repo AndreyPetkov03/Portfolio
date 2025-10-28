@@ -12,10 +12,13 @@ export function BackgroundGradientDemo() {
       <BackgroundGradient className="rounded-full max-w-sm p-0.5 bg-transparent dark:bg-transparent m-b ">
         <Image
           src={profileImg}
-          alt="jordans"
+          alt="profile picture"
           height="400"
           width="400"
           className="object-contain rounded-full"
+          quality={100}
+          priority={true}
+          unoptimized={false}
         />
         
         
