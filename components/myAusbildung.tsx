@@ -23,7 +23,7 @@ const content = [
   {
     title: "1st Year",
     description:
-      "I started my apprenticeship with little to no knowledge of programming. However, through hard work, dedication, and resources like freeCodeCamp, Mimo, and YouTube tutorials, I quickly conquered JavaScript.",
+      "In the first year of my apprenticeship, I focused on building a strong foundation in software development. I learned to work with professional tools and workflows, from version control to agile development practices. Collaborating closely with my team helped me understand how ideas become real, working applications. I gradually moved from solving small tasks to contributing to larger features and projects. This year showed me how much I enjoy creating solutions that genuinely help users—and motivated me to keep improving every day.",
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         <Image
