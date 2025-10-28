@@ -23,7 +23,7 @@ const content = [
   {
     title: "1st Year",
     description:
-      "In the first year of my apprenticeship, I focused on building a strong foundation in software development. I learned to work with professional tools and workflows, from version control to agile development practices. Collaborating closely with my team helped me understand how ideas become real, working applications. I gradually moved from solving small tasks to contributing to larger features and projects. This year showed me how much I enjoy creating solutions that genuinely help users—and motivated me to keep improving every day.",
+      "In my first year, I focused on building a solid foundation in software development. I learned to work with the core technologies of web development, including HTML, CSS, JavaScript, SQL, and PHP. Getting familiar with professional workflows, version control, and agile teamwork helped me understand how real projects take shape. I gradually moved from small tasks to contributing to meaningful features, gaining confidence in both my skills and collaboration. This year laid the groundwork for my growth and prepared me for more complex challenges.",
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         <Image
