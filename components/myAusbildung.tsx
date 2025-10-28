@@ -11,10 +11,10 @@ const content = [
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
       <Image
-        src="/images/irs-building.png"
+        src="/images/IRS_Logo.png"
         width={300}
         height={300}
-        className="h-full w-full object-cover"
+        className="h-full w-full object-contain"
         alt="linear board demo"
       />
     </div>
