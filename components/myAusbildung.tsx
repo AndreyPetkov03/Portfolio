@@ -39,7 +39,7 @@ const content = [
   {
     title: "2nd Year",
     description:
-      "During my second year, I expanded my skill set into modern front-end development, exploring TypeScript, React, Next.js, and Tailwind. With this new knowledge, I had the opportunity to take on my first major project: developing the company’s internal intranet platform — a place for colleagues to connect and interact. Leading this project helped me deepen my understanding of building scalable, user-centered applications. It was a defining step where I transitioned from learning concepts to applying them in impactful, real-world solutions.",
+      "During my second year, I expanded my skill set into modern front-end development, learning TypeScript, React, Next.js, and Tailwind. With these new technologies, I began developing the company’s internal intranet platform—an interactive space for colleagues to share updates and connect. Working on this project helped me apply what I learned in a real-world environment and strengthened my understanding of building dynamic, user-focused applications. It marked the point where I started truly shaping product experiences rather than just contributing to them.",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
         Version control
@@ -49,7 +49,7 @@ const content = [
   {
     title: "3rd Year",
     description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+      "In my third year, I continued developing the intranet and significantly expanded its features and overall quality. I focused on improving responsiveness, UI and UX design, smooth user interactions, animations, and loading performance. Additionally, I built an admin dashboard that allowed administrators to manage the platform directly within the Next.js application. This phase gave me the opportunity to refine both technical and design skills, while taking full ownership of a production-level product.",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
         Running out of content
