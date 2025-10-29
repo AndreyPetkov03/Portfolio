@@ -9,7 +9,8 @@ const projectsData = [
     title: "My Portfolio",
     description: "This project was one of my first ever React projects. It was Developed using modern technologies such as Next.js, React, Tailwind, Framer Motion and Typescript. The 3D iPhone was made using Spline and additionaly the background was made using Figma.",
     tooltipComponent: <AnimatedTooltipPreview />,
-    className: ""
+    className: "",
+    link: "https://github.com/ASTROFO7/Portfolio"
   },
   {
     id: 2,
@@ -17,7 +18,8 @@ const projectsData = [
     title: "Coming Soon",
     description: "This project will be an RPG, a Pokémon-like turn-based game where you fight fantasy monsters such as slimes, goblins, and orcs to save the princess.",
     tooltipComponent: <AnimatedTooltip2 />,
-    className: ""
+    className: "",
+    link: "#"
   },
   {
     id: 3,
@@ -25,7 +27,8 @@ const projectsData = [
     title: "Coming Soon",
     description: "This project will be a typical weather app that shows the weather of the city I live in.",
     tooltipComponent: <AnimatedTooltip2 />,
-    className: "xs:w-[20rem]"
+    className: "xs:w-[20rem]",
+    link: "#"
   },
   {
     id: 4,
@@ -33,7 +36,8 @@ const projectsData = [
     title: "Coming Soon",
     description: "The last project will be my biggest one yet and also my final project to complete my apprenticeship.",
     tooltipComponent: <AnimatedTooltip2 />,
-    className: "xs:w-full"
+    className: "xs:w-full",
+    link: "#"
   }
 ];
 
@@ -51,6 +55,7 @@ export default function Projects() {
                         description={project.description}
                         tooltipComponent={project.tooltipComponent}
                         className={project.className}
+                        link={project.link}
                     />
                 ))}
             </div>
