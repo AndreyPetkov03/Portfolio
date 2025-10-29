@@ -57,8 +57,14 @@ const content = [
     description:
       "In my third year, I continued developing the intranet and significantly expanded its features and overall quality. I focused on improving responsiveness, UI and UX design, smooth user interactions, animations, and loading performance. Additionally, I built an admin dashboard that allowed administrators to manage the platform directly within the Next.js application. This phase gave me the opportunity to refine both technical and design skills, while taking full ownership of a production-level product.",
     content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-        Running out of content
+      <div className="h-full w-full bg-black flex items-center justify-center text-white">
+        <Image
+          src="/images/Intranet2.png"
+          width={300}
+          height={300}
+          className="h-full w-full object-contain"
+          alt="linear board demo"
+        />
       </div>
     ),
   },
