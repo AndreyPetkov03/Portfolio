@@ -5,6 +5,7 @@ import React from "react";
 import Link from "next/link";
 import { CardBody, CardContainer, CardItem } from "./Card";
 import { AnimatedTooltipPreview, AnimatedTooltip2 } from "./Tooltip";
+import { IconArrowRight } from "@tabler/icons-react";
 
 interface ProjectCardProps {
   image: string;
@@ -53,10 +54,14 @@ export function ProjectCard({ image, title, description, tooltipComponent, class
           <CardItem
             translateZ={20}
             as="button"
-            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold flex items-center gap-2 group hover:bg-gray-800 dark:hover:bg-gray-200 transition-colors"
             onClick={() => link && window.open(link, '_blank')}
           >
             Learn More
+            <IconArrowRight 
+              size={14} 
+              className="transition-transform group-hover:translate-x-1" 
+            />
           </CardItem>
         </div>
       </CardBody>
