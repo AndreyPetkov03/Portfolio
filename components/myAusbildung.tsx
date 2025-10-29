@@ -59,7 +59,7 @@ const content = [
   {
     title: "After the apprenticeship",
     description:
-      "Although my apprenticeship may be coming to an end, my journey has only just begun. I have a long road ahead to mastering web development. My current goal is to become a Senior Developer, and perhaps one day, own my own software company.",
+      "I am set to complete my apprenticeship between June and July. After graduating, I hope to continue expanding my skills and gaining new experience as a developer. I want to keep learning, take on new challenges, and grow both personally and professionally. I’m excited to explore new perspectives, contribute to meaningful projects, and continue developing my craft in the world of software development.",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
         Running out of content
