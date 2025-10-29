@@ -41,8 +41,14 @@ const content = [
     description:
       "During my second year, I expanded my skill set into modern front-end development, learning TypeScript, React, Next.js, and Tailwind. With these new technologies, I began developing the company’s internal intranet platform—an interactive space for colleagues to share updates and connect. Working on this project helped me apply what I learned in a real-world environment and strengthened my understanding of building dynamic, user-focused applications. It marked the point where I started truly shaping product experiences rather than just contributing to them.",
     content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
-        Version control
+      <div className="h-full w-full bg-black flex items-center justify-center text-white">
+        <Image
+          src="/images/Intranet1.png"
+          width={300}
+          height={300}
+          className="h-full w-full object-contain"
+          alt="linear board demo"
+        />
       </div>
     ),
   },
