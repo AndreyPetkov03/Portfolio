@@ -30,8 +30,8 @@ export const CardContainer = ({
     if (!containerRef.current) return;
     const { left, top, width, height } =
       containerRef.current.getBoundingClientRect();
-    const x = (e.clientX - left - width / 2) / 90; // Adjust divisor to control rotation sensitivity
-    const y = (e.clientY - top - height / 2) / 90; // Adjust divisor to control rotation sensitivity
+    const x = (e.clientX - left - width / 2) / 150; // Adjust divisor to control rotation sensitivity
+    const y = (e.clientY - top - height / 2) / 150; // Adjust divisor to control rotation sensitivity
     containerRef.current.style.transform = `rotateY(${x}deg) rotateX(${y}deg)`;
   };
 
