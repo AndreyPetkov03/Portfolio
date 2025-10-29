@@ -30,8 +30,8 @@ export const CardContainer = ({
     if (!containerRef.current) return;
     const { left, top, width, height } =
       containerRef.current.getBoundingClientRect();
-    const x = (e.clientX - left - width / 2) / 90;
-    const y = (e.clientY - top - height / 2) / 90;
+    const x = (e.clientX - left - width / 2) / 90; // Adjust divisor to control rotation sensitivity
+    const y = (e.clientY - top - height / 2) / 90; // Adjust divisor to control rotation sensitivity
     containerRef.current.style.transform = `rotateY(${x}deg) rotateX(${y}deg)`;
   };
 
@@ -53,7 +53,7 @@ export const CardContainer = ({
           containerClassName
         )}
         style={{
-          perspective: "5000px",
+          perspective: "9000px",    // Adjusted perspective for better 3D effect
         }}
       >
         <div
