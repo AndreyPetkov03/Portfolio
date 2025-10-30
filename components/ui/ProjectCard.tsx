@@ -32,7 +32,7 @@ export function ProjectCard({ image, title, description, tooltipComponent, class
         </CardItem>
         <CardItem
           translateZ="50"
-          className="text-xl font-bold text-neutral-600 dark:text-white mt-16"
+          className="text-xl font-bold text-neutral-600 dark:text-white mt-6"
         >
           {title}
         </CardItem>
