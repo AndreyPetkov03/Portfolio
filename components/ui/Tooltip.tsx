@@ -2,44 +2,36 @@
 import React from "react";
 import { AnimatedTooltip } from "./animatedTooltip";
 
-// Import only the logos we actually use
-import reactProjectsLogo from '../../public/LOGOS/react Projects.svg';
-import tailwindProjectsLogo from '../../public/LOGOS/tailwind Projects.svg';
-import nextProjectsLogo from '../../public/LOGOS/next Projects.svg';
-import typescriptProjectsLogo from '../../public/LOGOS/typescript Projects.svg';
-import framermotionProjectsLogo from '../../public/LOGOS/framermotion Projects.svg';
-import UnknownLogo from '../../public/images/Unknown3.png';
-
 
 
 // Define tooltip sets as constants
 const TOOLTIP_SETS = {
   portfolio: [
-    { id: 1, name: "", designation: "React", image: reactProjectsLogo },
-    { id: 2, name: "", designation: "Tailwind", image: tailwindProjectsLogo },
-    { id: 3, name: "", designation: "Next.js", image: nextProjectsLogo },
-    { id: 4, name: "", designation: "TypeScript", image: typescriptProjectsLogo },
-    { id: 5, name: "", designation: "Framer Motion", image: framermotionProjectsLogo },
+    { id: 1, name: "", designation: "React", image: "/LOGOS/react Projects.svg" },
+    { id: 2, name: "", designation: "Tailwind", image: "/LOGOS/tailwind Projects.svg" },
+    { id: 3, name: "", designation: "Next.js", image: "/LOGOS/next Projects.svg" },
+    { id: 4, name: "", designation: "TypeScript", image: "/LOGOS/typescript Projects.svg" },
+    { id: 5, name: "", designation: "Framer Motion", image: "/LOGOS/framermotion Projects.svg" },
   ],
   intranet: [
-    { id: 1, name: "", designation: "React", image: reactProjectsLogo },
-    { id: 2, name: "", designation: "Tailwind", image: tailwindProjectsLogo },
-    { id: 3, name: "", designation: "Next.js", image: nextProjectsLogo },
-    { id: 4, name: "", designation: "TypeScript", image: typescriptProjectsLogo },
+    { id: 1, name: "", designation: "React", image: "/LOGOS/react Projects.svg" },
+    { id: 2, name: "", designation: "Tailwind", image: "/LOGOS/tailwind Projects.svg" },
+    { id: 3, name: "", designation: "Next.js", image: "/LOGOS/next Projects.svg" },
+    { id: 4, name: "", designation: "TypeScript", image: "/LOGOS/typescript Projects.svg" },
     // Add more specific logos for intranet project
   ],
   gallery: [
-    { id: 1, name: "", designation: "React", image: reactProjectsLogo },
-    { id: 2, name: "", designation: "Tailwind", image: tailwindProjectsLogo },
-    { id: 3, name: "", designation: "Next.js", image: nextProjectsLogo },
-    { id: 4, name: "", designation: "TypeScript", image: typescriptProjectsLogo },
+    { id: 1, name: "", designation: "React", image: "/LOGOS/react Projects.svg" },
+    { id: 2, name: "", designation: "Tailwind", image: "/LOGOS/tailwind Projects.svg" },
+    { id: 3, name: "", designation: "Next.js", image: "/LOGOS/next Projects.svg" },
+    { id: 4, name: "", designation: "TypeScript", image: "/LOGOS/typescript Projects.svg" },
     // Add more specific logos for gallery project
   ],
   comingSoon: Array.from({ length: 5 }, (_, i) => ({
     id: i + 1,
     name: "",
     designation: "????",
-    image: UnknownLogo,
+    image: "/images/Unknown3.png",
   })),
 };
 
