@@ -14,7 +14,7 @@ const projectsData = [
   },
   {
     id: 2,
-    image: "/images/Intranet2.png",
+    image: "/images/Intranet3.png",
     title: "Coming Soon",
     description: "This project will be an RPG, a Pokémon-like turn-based game where you fight fantasy monsters such as slimes, goblins, and orcs to save the princess.",
     tooltipComponent: <AnimatedTooltip2 />,
