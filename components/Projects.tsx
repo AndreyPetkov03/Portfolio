@@ -23,7 +23,7 @@ const projectsData = [
   },
   {
     id: 3,
-    image: "/images/Unknown.png",
+    image: "/images/galleryGalleries.png",
     title: "Coming Soon",
     description: "This project will be a typical weather app that shows the weather of the city I live in.",
     tooltipComponent: <AnimatedTooltip2 />,
