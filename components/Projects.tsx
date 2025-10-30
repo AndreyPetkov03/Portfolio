@@ -7,7 +7,7 @@ const projectsData = [
     id: 1,
     image: "/images/Portfolio.png",
     title: "My Portfolio",
-    description: "This project was one of my first ever React projects. It was Developed using modern technologies such as Next.js, React, Tailwind, Framer Motion and Typescript. The 3D iPhone was made using Spline and additionaly the background was made using Figma.",
+    description: "Developed to showcase my skills in modern web development, this was one of my first React projects. Built with Next.js, React, Tailwind, Framer Motion, and TypeScript, it features a 3D iPhone created in Spline and a custom background designed in Figma. The project gave me hands-on experience with interactive UI animations, responsive design, and component-based architecture.",
     tooltipComponent: <AnimatedTooltipPreview />,
     className: "",
     link: "https://github.com/AndreyPetkov03/Portfolio"
@@ -16,7 +16,7 @@ const projectsData = [
     id: 2,
     image: "/images/Intranet3.png",
     title: "The Intranet",
-    description: "This project was created during my apprenticeship at the International Repair Service, where I was fully responsible from planning to deployment. It features a homepage overview, blog, announcements page, appointments system, image gallery, and an admin dashboard for managing content and permissions. All visuals, including logos and custom SVGs, were designed in Figma.",
+    description: "Developed during my apprenticeship at the International Repair Service, I was fully responsible for this project from planning to deployment. It includes a homepage overview, blog, announcements page, appointments system, image gallery, and an admin dashboard for managing content and permissions. All visuals, including logos and custom SVGs, were designed in Figma.",
     tooltipComponent: <AnimatedTooltip2 />,
     className: "",
     link: ""
@@ -25,7 +25,7 @@ const projectsData = [
     id: 3,
     image: "/images/galleryGalleries.png",
     title: "The Gallery App",
-    description: "This project will be a typical weather app that shows the weather of the city I live in.",
+    description: "An Instagram-inspired gallery app that allows users to log in, upload images, name them, and add descriptions to create their personal “art” gallery. Each user has a profile page where their gallery can be viewed by others. It was built using React, Next.js, TypeScript, and Tailwind, with Supabase handling authentication, storage, and backend data.",
     tooltipComponent: <AnimatedTooltip2 />,
     className: "xs:w-[20rem]",
     link: "https://github.com/AndreyPetkov03/gallery-app"
