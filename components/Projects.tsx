@@ -1,6 +1,6 @@
 import React from "react";
 import { ProjectCard } from "./ui/ProjectCard";
-import { AnimatedTooltipPreview, AnimatedTooltip2 } from "./ui/Tooltip";
+import { ProjectTooltip } from "./ui/Tooltip";
 
 const projectsData = [
   {
@@ -8,7 +8,7 @@ const projectsData = [
     image: "/images/Portfolio.png",
     title: "My Portfolio",
     description: "Developed to showcase my skills in modern web development, this was one of my first React projects. Built with Next.js, React, Tailwind, Framer Motion, and TypeScript, it features a 3D iPhone created in Spline and a custom background designed in Figma. The project gave me hands-on experience with interactive UI animations, responsive design, and component-based architecture.",
-    tooltipComponent: <AnimatedTooltipPreview />,
+    tooltipComponent: <ProjectTooltip type="portfolio" />,
     className: "",
     link: "https://github.com/AndreyPetkov03/Portfolio"
   },
@@ -17,7 +17,7 @@ const projectsData = [
     image: "/images/Intranet3.png",
     title: "The Intranet",
     description: "Developed during my apprenticeship at the International Repair Service, I was fully responsible for this project from planning to deployment. It includes a homepage overview, blog, announcements page, appointments system, image gallery, and an admin dashboard for managing content and permissions. All visuals, including logos and custom SVGs, were designed in Figma.",
-    tooltipComponent: <AnimatedTooltip2 />,
+    tooltipComponent: <ProjectTooltip type="intranet" />,
     className: "",
     link: ""
   },
@@ -25,8 +25,8 @@ const projectsData = [
     id: 3,
     image: "/images/galleryGalleries.png",
     title: "The Gallery App",
-    description: "An Instagram-inspired gallery app that allows users to log in, upload images, name them, and add descriptions to create their personal “art” gallery. Each user has a profile page where their gallery can be viewed by others. It was built using React, Next.js, TypeScript, and Tailwind, with Supabase handling authentication, storage, and backend data.",
-    tooltipComponent: <AnimatedTooltip2 />,
+    description: "An Instagram-inspired gallery app that allows users to log in, upload images, name them, and add descriptions to create their personal 'art' gallery. Each user has a profile page where their gallery can be viewed by others. It was built using React, Next.js, TypeScript, and Tailwind, with Supabase handling authentication, storage, and backend data.",
+    tooltipComponent: <ProjectTooltip type="gallery" />,
     className: "",
     link: "https://github.com/AndreyPetkov03/gallery-app"
   },
@@ -35,7 +35,7 @@ const projectsData = [
     image: "/images/Unknown.png",
     title: "Coming Soon",
     description: "The last project will be my biggest one yet and also my final project to complete my apprenticeship.",
-    tooltipComponent: <AnimatedTooltip2 />,
+    tooltipComponent: <ProjectTooltip type="comingSoon" />,
     className: "",
     link: ""
   }
