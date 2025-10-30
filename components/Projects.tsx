@@ -28,7 +28,7 @@ const projectsData = [
     description: "This project will be a typical weather app that shows the weather of the city I live in.",
     tooltipComponent: <AnimatedTooltip2 />,
     className: "xs:w-[20rem]",
-    link: "#"
+    link: "https://github.com/AndreyPetkov03/gallery-app"
   },
   {
     id: 4,
