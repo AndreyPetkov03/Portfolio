@@ -15,8 +15,8 @@ const projectsData = [
   {
     id: 2,
     image: "/images/Intranet3.png",
-    title: "International repair service Intranet",
-    description: "This project will be an RPG, a Pokémon-like turn-based game where you fight fantasy monsters such as slimes, goblins, and orcs to save the princess.",
+    title: "The Intranet",
+    description: "This project was created during my apprenticeship at the International Repair Service, where I was fully responsible from planning to deployment. It features a homepage overview, blog, announcements page, appointments system, image gallery, and an admin dashboard for managing content and permissions. All visuals, including logos and custom SVGs, were designed in Figma.",
     tooltipComponent: <AnimatedTooltip2 />,
     className: "",
     link: ""
