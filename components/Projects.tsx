@@ -10,21 +10,21 @@ const projectsData = [
     description: "This project was one of my first ever React projects. It was Developed using modern technologies such as Next.js, React, Tailwind, Framer Motion and Typescript. The 3D iPhone was made using Spline and additionaly the background was made using Figma.",
     tooltipComponent: <AnimatedTooltipPreview />,
     className: "",
-    link: "https://github.com/ASTROFO7/Portfolio"
+    link: "https://github.com/AndreyPetkov03/Portfolio"
   },
   {
     id: 2,
     image: "/images/Intranet3.png",
-    title: "Coming Soon",
+    title: "International repair service Intranet",
     description: "This project will be an RPG, a Pokémon-like turn-based game where you fight fantasy monsters such as slimes, goblins, and orcs to save the princess.",
     tooltipComponent: <AnimatedTooltip2 />,
     className: "",
-    link: "#"
+    link: ""
   },
   {
     id: 3,
     image: "/images/galleryGalleries.png",
-    title: "Coming Soon",
+    title: "The Gallery App",
     description: "This project will be a typical weather app that shows the weather of the city I live in.",
     tooltipComponent: <AnimatedTooltip2 />,
     className: "xs:w-[20rem]",
