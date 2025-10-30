@@ -27,7 +27,7 @@ const projectsData = [
     title: "The Gallery App",
     description: "An Instagram-inspired gallery app that allows users to log in, upload images, name them, and add descriptions to create their personal “art” gallery. Each user has a profile page where their gallery can be viewed by others. It was built using React, Next.js, TypeScript, and Tailwind, with Supabase handling authentication, storage, and backend data.",
     tooltipComponent: <AnimatedTooltip2 />,
-    className: "xs:w-[20rem]",
+    className: "",
     link: "https://github.com/AndreyPetkov03/gallery-app"
   },
   {
@@ -36,7 +36,7 @@ const projectsData = [
     title: "Coming Soon",
     description: "The last project will be my biggest one yet and also my final project to complete my apprenticeship.",
     tooltipComponent: <AnimatedTooltip2 />,
-    className: "xs:w-full",
+    className: "",
     link: ""
   }
 ];
