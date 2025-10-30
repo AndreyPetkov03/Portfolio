@@ -51,7 +51,7 @@ export function ProjectCard({ image, title, description, tooltipComponent, class
           >
             {tooltipComponent}
           </CardItem>
-          {link && link.trim() !== "" && link !== "#" && (
+          {link && link.trim() !== "" && (
             <CardItem
               translateZ={20}
               as="button"

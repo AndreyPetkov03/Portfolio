@@ -37,7 +37,7 @@ const projectsData = [
     description: "The last project will be my biggest one yet and also my final project to complete my apprenticeship.",
     tooltipComponent: <AnimatedTooltip2 />,
     className: "xs:w-full",
-    link: "#"
+    link: ""
   }
 ];
 
