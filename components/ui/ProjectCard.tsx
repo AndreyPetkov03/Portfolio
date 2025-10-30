@@ -44,7 +44,7 @@ export function ProjectCard({ image, title, description, tooltipComponent, class
           {description}
         </CardItem>
         
-        <div className="flex justify-between items-center mt-20">
+        <div className="flex justify-between items-center mt-[6rem]">
           <CardItem
             translateZ={20}
             className="rounded-xl text-xs font-normal dark:text-white"
