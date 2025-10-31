@@ -5,7 +5,7 @@ import { ProjectTooltip } from "./ui/Tooltip";
 const projectsData = [
   {
     id: 1,
-    image: "/images/Portfolio.png",
+    image: "/projectImages/portfolioImage.png",
     title: "My Portfolio",
     description: "Developed to showcase my skills in modern web development, this was one of my first React projects. Built with Next.js, React, Tailwind, Framer Motion, and TypeScript, it features a 3D iPhone created in Spline and a custom background designed in Figma. The project gave me hands-on experience with interactive UI animations, responsive design, and component-based architecture.",
     tooltipComponent: <ProjectTooltip type="portfolio" />,
