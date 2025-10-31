@@ -2,9 +2,7 @@
 
 import Image from "next/image";
 import React from "react";
-import Link from "next/link";
 import { CardBody, CardContainer, CardItem } from "./Card";
-import { AnimatedTooltipPreview, AnimatedTooltip2 } from "./Tooltip";
 import { IconArrowRight } from "@tabler/icons-react";
 
 interface ProjectCardProps {
