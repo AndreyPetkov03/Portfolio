@@ -35,9 +35,8 @@ const TOOLTIP_SETS = {
   weatherApp: [
     { id: 1, name: "", designation: "React", image: "/projectIcons/reactProject.svg" },
     { id: 2, name: "", designation: "Tailwind", image: "/projectIcons/tailwindProject.svg" },
-    { id: 3, name: "", designation: "Next.js", image: "/projectIcons/nextProject.svg" },
-    { id: 4, name: "", designation: "TypeScript", image: "/projectIcons/typescriptProject.svg" },
-    { id: 5, name: "", designation: "Supabase", image: "/projectIcons/supabaseProject.svg" },
+    { id: 3, name: "", designation: "TypeScript", image: "/projectIcons/typescriptProject.svg" },
+    { id: 4, name: "", designation: "Vite", image: "/projectIcons/viteProject.svg" },
     // Add more specific logos for weatherApp project
   ],
   // comingSoon: Array.from({ length: 5 }, (_, i) => ({

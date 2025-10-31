@@ -33,8 +33,8 @@ const projectsData = [
   {
     id: 4,
     image: "/images/Unknown.png",
-    title: "Coming Soon",
-    description: "The last project will be my biggest one yet and also my final project to complete my apprenticeship.",
+    title: "Weather App",
+    description: "A simple weather application built to experiment with Vite and its fast development environment. It uses React, Tailwind, and TypeScript, retrieves live weather data from WeatherAPI, and features smooth Lottie animations for visual feedback.",
     tooltipComponent: <ProjectTooltip type="weatherApp" />,
     className: "",
     link: ""
