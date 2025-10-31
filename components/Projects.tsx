@@ -35,7 +35,7 @@ const projectsData = [
     image: "/images/Unknown.png",
     title: "Coming Soon",
     description: "The last project will be my biggest one yet and also my final project to complete my apprenticeship.",
-    tooltipComponent: <ProjectTooltip type="comingSoon" />,
+    tooltipComponent: <ProjectTooltip type="weatherApp" />,
     className: "",
     link: ""
   }
