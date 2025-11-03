@@ -1,12 +1,12 @@
 import React from 'react';
-import { Spotlight } from '../../../components/ui/Spotlight';
+import { Spotlight } from '../ui/Spotlight';
 import { FlipWords } from '../ui/FlipWords';
-import { BackgroundGradient } from '../../../components/ui/Background-gradient';
+import { BackgroundGradient } from '../ui/Background-gradient';
 import Image from "next/image";
 import exampleImg from '../../../public/images/profilePicture2.jpg';
-import MagicButton from '../../../components/ui/MagicButton';
-import { BackgroundGradientDemo } from '../../../components/ui/backgroundDemo';
-import { FloatingNav } from '../../../components/ui/floating-navbar';
+import MagicButton from '../ui/MagicButton';
+import { BackgroundGradientDemo } from '../ui/backgroundDemo';
+import { FloatingNav } from '../ui/floating-navbar';
 import { navItems } from '@/src/constants/navigation';
 
 
