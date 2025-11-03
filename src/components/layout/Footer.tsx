@@ -18,7 +18,7 @@ export default function Footer() {
             </a>
             <a href="mailto:petkovandrey03@gmail.com" target="_blank" rel="noopener noreferrer">
                 <Image 
-                    src="/LOGOS/mail.svg" 
+                    src="/LOGOS/emailSvg.svg" 
                     alt="mail" 
                     width={40}
                     height={40}
