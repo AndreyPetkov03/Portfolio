@@ -4,9 +4,9 @@ import {
   GlowingStarsBackgroundCard,
   GlowingStarsDescription,
   GlowingStarsTitle,
-} from "./glowing-stars";
+} from "./GlowingStars";
 
-export function GlowingStarsBackgroundCardPreview() {
+export function CodingCard() {
   return (
     <div className="flex py-0 items-center justify-center antialiased">
       <GlowingStarsBackgroundCard>

@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { InfiniteMovingCards } from "./marquee";
+import { InfiniteMovingCards } from "./Marquee";
 import Image from "next/image";
 import codeSnippet from '../../../public/images/codeSnippet.jpeg';
 import ReactLogo from '../../../public/LOGOS/React-icon.svg.png';
@@ -18,7 +18,7 @@ import gitLogo from '../../../public/LOGOS/git.png';
 import dockerLogo from '../../../public/LOGOS/Docker.svg';
 
 
-export function InfiniteMovingCardsDemo() {
+export function SkillsMarquee() {
   return (
     <div className=" h-[20rem] rounded-md flex flex-col antialiased bg-black items-center justify-center relative overflow-hidden">
       <InfiniteMovingCards

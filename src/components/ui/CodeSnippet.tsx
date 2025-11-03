@@ -1,6 +1,6 @@
 import codeSnippet from '../../../public/images/codeSnippet.jpeg';
 import Image from "next/image";
-import { Compare } from './codeComparison';
+import { Compare } from './CodeComparison';
 import badCode from '../../../public/images/Bad code.jpeg';
 import goodCode from '../../../public/images/Good code.jpeg';
 
