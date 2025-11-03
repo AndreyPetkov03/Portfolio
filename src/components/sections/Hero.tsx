@@ -1,12 +1,12 @@
 import React from 'react';
 import { Spotlight } from '../ui/Spotlight';
 import { FlipWords } from '../ui/FlipWords';
-import { BackgroundGradient } from '../ui/Background-gradient';
+import { BackgroundGradient } from '../ui/BackgroundGradient';
 import Image from "next/image";
 import exampleImg from '../../../public/images/profilePicture2.jpg';
 import MagicButton from '../ui/MagicButton';
-import { BackgroundGradientDemo } from '../ui/backgroundDemo';
-import { FloatingNav } from '../ui/floating-navbar';
+import { ProfileCard } from '../ui/ProfileCard';
+import { FloatingNav } from '../ui/FloatingNavbar';
 import { navItems } from '@/src/constants/navigation';
 
 
@@ -33,7 +33,7 @@ const Hero = () => {
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           
         <FloatingNav navItems={navItems}/>
-        <BackgroundGradientDemo />
+        <ProfileCard />
           <p className="tracking-widest text-sm md:text-lg lg:text-2xl text-center text-blue-100 max-w-80 mb-3 mt-10">
             Hi, I&apos;m Andrey
           </p>

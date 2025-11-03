@@ -1,6 +1,6 @@
 import { cn } from "@/src/utils/cn";
 import React from "react";
-import { BentoGrid, BentoGridItem } from "../ui/bento-grid";
+import { BentoGrid, BentoGridItem } from "../ui/BentoGrid";
 import {
   IconArrowWaveRightUp,
   IconBoxAlignRightFilled,
@@ -10,10 +10,10 @@ import {
   IconSignature,
   IconTableColumn,
 } from "@tabler/icons-react";
-import { GlowingStarsBackgroundCardPreview } from "../ui/glowingStarsDemo";
+import { CodingCard } from "../ui/CodingCard";
 import Phone3D from "../ui/Phone3D";
 import CodeSnippet from "../ui/CodeSnippet";
-import { InfiniteMovingCardsDemo } from "../ui/MarqueeDemo";
+import { SkillsMarquee } from "../ui/SkillsMarquee";
 
 export function BentoGridDemo() {
   return (
@@ -37,7 +37,7 @@ const items = [
   {
     title: "My Skills",
     description: "",
-    header: <InfiniteMovingCardsDemo />,
+    header: <SkillsMarquee />,
   },
   
   {
@@ -53,6 +53,6 @@ const items = [
   {
     title: "I ❤️ Coding",
     description: "And so will you my code",
-    header: <GlowingStarsBackgroundCardPreview />,
+    header: <CodingCard />,
   },
 ];
