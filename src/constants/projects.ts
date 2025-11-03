@@ -22,7 +22,7 @@ export const projectsData: ProjectData[] = [
   {
     id: 3,
     image: "/images/galleryGalleries.png",
-    title: "The Gallery App",
+    title: "Gallery App",
     description: "An Instagram-inspired gallery app that allows users to log in, upload images, name them, and add descriptions to create their personal 'art' gallery. Each user has a profile page where their gallery can be viewed by others. It was built using React, Next.js, TypeScript, and Tailwind, with Supabase handling authentication, storage, and backend data.",
     tooltipType: "gallery",
     className: "",
