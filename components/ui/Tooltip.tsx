@@ -39,12 +39,7 @@ const TOOLTIP_SETS = {
     { id: 4, name: "", designation: "Vite", image: "/projectIcons/viteProject.svg" },
     // Add more specific logos for weatherApp project
   ],
-  // comingSoon: Array.from({ length: 5 }, (_, i) => ({
-  //   id: i + 1,
-  //   name: "",
-  //   designation: "????",
-  //   image: "/images/Unknown3.png",
-  // })),
+
 };
 
 // Single reusable component
@@ -64,7 +59,3 @@ export function ProjectTooltip({ type }: ProjectTooltipProps) {
 export function AnimatedTooltipPreview() {
   return <ProjectTooltip type="portfolio" />;
 }
-
-
-
-
