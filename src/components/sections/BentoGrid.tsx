@@ -1,6 +1,6 @@
-import { cn } from "@/utils/cn";
+import { cn } from "@/src/utils/cn";
 import React from "react";
-import { BentoGrid, BentoGridItem } from "./ui/bento-grid";
+import { BentoGrid, BentoGridItem } from "../../../components/ui/bento-grid";
 import {
   IconArrowWaveRightUp,
   IconBoxAlignRightFilled,
@@ -10,11 +10,11 @@ import {
   IconSignature,
   IconTableColumn,
 } from "@tabler/icons-react";
-import { GlowingStarsBackgroundCardPreview } from "./ui/glowingStarsDemo";
-import Phone3D from "./ui/Phone3D";
-import CodeSnippet from "./ui/CodeSnippet";
-import { InfiniteMovingCardsDemo } from "./ui/MarqueeDemo";
-//row-span-2
+import { GlowingStarsBackgroundCardPreview } from "../../../components/ui/glowingStarsDemo";
+import Phone3D from "../../../components/ui/Phone3D";
+import CodeSnippet from "../../../components/ui/CodeSnippet";
+import { InfiniteMovingCardsDemo } from "../../../components/ui/MarqueeDemo";
+
 export function BentoGridDemo() {
   return (
     <div className="bg-[url('../public/images/background1.png')] bg-cover bg-center w-full relative z-9000 p-7" id="about">
