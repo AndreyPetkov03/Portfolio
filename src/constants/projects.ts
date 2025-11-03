@@ -1,0 +1,40 @@
+import { ProjectData } from "@/src/types";
+
+export const projectsData: ProjectData[] = [
+  {
+    id: 1,
+    image: "/images/Portfolio.png",
+    title: "My Portfolio",
+    description: "Developed to showcase my skills in modern web development, this was one of my first React projects. Built with Next.js, React, Tailwind, Framer Motion, and TypeScript, it features a 3D iPhone created in Spline and a custom background designed in Figma. The project gave me hands-on experience with interactive UI animations, responsive design, and component-based architecture.",
+    tooltipType: "portfolio",
+    className: "",
+    link: "https://github.com/AndreyPetkov03/Portfolio"
+  },
+  {
+    id: 2,
+    image: "/images/Intranet3.png",
+    title: "The Intranet",
+    description: "Developed during my apprenticeship at the International Repair Service, I was fully responsible for this project from planning to deployment. It includes a homepage overview, blog, announcements page, appointments system, image gallery, and an admin dashboard for managing content and permissions. All visuals, including logos and custom SVGs, were designed in Figma.",
+    tooltipType: "intranet",
+    className: "",
+    link: ""
+  },
+  {
+    id: 3,
+    image: "/images/galleryGalleries.png",
+    title: "The Gallery App",
+    description: "An Instagram-inspired gallery app that allows users to log in, upload images, name them, and add descriptions to create their personal 'art' gallery. Each user has a profile page where their gallery can be viewed by others. It was built using React, Next.js, TypeScript, and Tailwind, with Supabase handling authentication, storage, and backend data.",
+    tooltipType: "gallery",
+    className: "",
+    link: "https://github.com/AndreyPetkov03/gallery-app"
+  },
+  {
+    id: 4,
+    image: "/images/Unknown.png",
+    title: "Coming Soon",
+    description: "The last project will be my biggest one yet and also my final project to complete my apprenticeship.",
+    tooltipType: "weatherApp",
+    className: "",
+    link: ""
+  }
+];

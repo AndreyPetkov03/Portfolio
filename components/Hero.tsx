@@ -7,7 +7,7 @@ import exampleImg from '../public/images/profilePicture2.jpg';
 import MagicButton from './ui/MagicButton';
 import { BackgroundGradientDemo } from './ui/backgroundDemo';
 import { FloatingNav } from './ui/floating-navbar';
-import {navItems} from './navbarVariable.js';
+import { navItems } from '@/src/constants/navigation';
 
 
 const Hero = () => {
