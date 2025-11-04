@@ -9,7 +9,7 @@ export interface ProjectData {
   image: string;
   title: string;
   description: string;
-  tooltipType: 'portfolio' | 'intranet' | 'gallery' | 'weatherApp';
+  tooltipType: 'portfolio' | 'intranet' | 'gallery' | 'weatherApp' | 'robloxGame';
   className?: string;
   link?: string;
 }
