@@ -63,31 +63,29 @@ export const GlowingStarsTitle = ({
 };
 
 export const Illustration = ({ mouseEnter }: { mouseEnter: boolean }) => {
-  const stars = 200;
-  const columns = 20;
+  const stars = 150; // Reduced for more compact grid
+  const columns = 15; // Reduced columns for better proportions
 
   const [glowingStars, setGlowingStars] = useState<number[]>([]);
 
   const highlightedStars = useRef<number[]>([]);
 
-  // Heart pattern - indices that form a heart shape in a 20x10 grid
+  // Heart pattern - perfectly centered in a 15-column grid
   const heartPattern = [
-    // Row 1: Top curves
-    23, 24, 25, 27, 28, 29,
-    // Row 2: Full width
-    42, 43, 44, 45, 46, 47, 48, 49,
-    // Row 3: Full width
+    // Row 2: Top curves
+    32, 33, 34, 36, 37, 38,
+    // Row 3: Full heart width  
+    47, 48, 49, 50, 51, 52, 53, 54,
+    // Row 4: Full heart width
     62, 63, 64, 65, 66, 67, 68, 69,
-    // Row 4: Slightly narrower
-    82, 83, 84, 85, 86, 87, 88, 89,
-    // Row 5: More narrow
-    103, 104, 105, 106, 107, 108,
-    // Row 6: Narrower
-    124, 125, 126, 127,
-    // Row 7: Very narrow
-    145, 146,
+    // Row 5: Slightly narrower
+    78, 79, 80, 81, 82, 83,
+    // Row 6: More narrow
+    94, 95, 96, 97,
+    // Row 7: Narrower
+    110, 111,
     // Row 8: Point
-    165
+    125
   ];
 
   useEffect(() => {
