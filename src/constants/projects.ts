@@ -48,11 +48,11 @@ export const projectsData: ProjectData[] = [
   },
   {
     id: 6,
-    image: "/images/weatherApp.png",
-    title: "Weather App",
-    description: "A simple weather application built to experiment with Vite and its fast development environment. It uses React, Tailwind, and TypeScript, retrieves live weather data from WeatherAPI, and features smooth Lottie animations for visual feedback.",
-    tooltipType: "weatherApp",
+    image: "/images/Unknown.png",
+    title: "Crypto Casino",
+    description: "A decentralized casino platform built on blockchain technology, supporting both Solana and Ethereum networks. Players can place bets using cryptocurrency in various casino games with provably fair algorithms. The platform features smart contracts written in Solidity for Ethereum integration and Rust programs for Solana, ensuring secure and transparent gaming. Built with React, Next.js, and TypeScript for a seamless user experience with real-time betting and automated payouts.",
+    tooltipType: "cryptoCasino",
     className: "",
-    link: "https://github.com/AndreyPetkov03/weather-app"
+    link: ""
   }
 ];
