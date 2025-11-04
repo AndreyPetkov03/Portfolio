@@ -75,17 +75,17 @@ export const Illustration = ({ mouseEnter }: { mouseEnter: boolean }) => {
     // Row 2: Top curves (symmetric with gap in middle)
     33, 34, 35, 39, 40, 41,
     // Row 3: Full heart width (symmetric - 10 stars)
-    47, 48, 49, 50, 51, 52, 53, 54, 55, 56,
+    47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57,
     // Row 4: Full heart width (symmetric - 10 stars)
-    62, 63, 64, 65, 66, 67, 68, 69, 70, 71,
+    62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72,
     // Row 5: Narrower (symmetric - 8 stars)
-    78, 79, 80, 81, 82, 83, 84, 85,
+    78, 79, 80, 81, 82, 83, 84, 85, 86,
     // Row 6: More narrow (symmetric - 6 stars)
-    94, 95, 96, 97, 98, 99,
+    94, 95, 96, 97, 98, 99, 100,
     // Row 7: Narrower (symmetric - 4 stars)
-    110, 111, 112, 113,
+    110, 111, 112, 113, 114,
     // Row 8: Very narrow (symmetric - 2 stars)
-    126, 127,
+    126, 127, 128,
     // Row 9: Point (1 star in center)
     142
   ];
