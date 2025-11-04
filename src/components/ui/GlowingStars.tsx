@@ -121,8 +121,8 @@ export const Illustration = ({ mouseEnter }: { mouseEnter: boolean }) => {
         const isGlowing = mouseEnter ? isHeartStar : isRandomGlowing;
         const isVisible = mouseEnter ? isHeartStar : true; // Hide non-heart stars on hover
         
-        const delay = (starIdx % 10) * 0.1;
-        const heartDelay = heartPattern.indexOf(starIdx) * 0.05; // Sequential heart animation
+        const delay = (starIdx % 10) * 0.05;
+        const heartDelay = heartPattern.indexOf(starIdx) * 0.005; // Sequential heart animation
         
         return (
           <div
