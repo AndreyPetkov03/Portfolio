@@ -3,7 +3,6 @@
 import React, { useEffect, useState } from "react";
 import { InfiniteMovingCards } from "./Marquee";
 import Image from "next/image";
-import codeSnippet from '../../../public/images/codeSnippet.jpeg';
 import ReactLogo from '../../../public/LOGOS/React-icon.svg.png';
 import TailwindLogo from '../../../public/LOGOS/Tailwind_CSS_Logo.svg.png';
 import SqlLogo from '../../../public/LOGOS/sql-database-generic.svg';
