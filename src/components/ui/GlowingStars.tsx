@@ -113,9 +113,15 @@ export const Illustration = ({ mouseEnter }: { mouseEnter: boolean }) => {
       }}
     >
       {[...Array(stars)].map((_, starIdx) => {
-        const isGlowing = mouseEnter ? heartPattern.includes(starIdx) : glowingStars.includes(starIdx);
+        const isHeartStar = heartPattern.includes(starIdx);
+        const isRandomGlowing = glowingStars.includes(starIdx);
+        
+        // When hovering: only heart stars are visible
+        // When not hovering: only random glowing stars are visible
+        const isGlowing = mouseEnter ? isHeartStar : isRandomGlowing;
+        const isVisible = mouseEnter ? isHeartStar : true; // Hide non-heart stars on hover
+        
         const delay = (starIdx % 10) * 0.1;
-        const staticDelay = starIdx * 0.01;
         const heartDelay = heartPattern.indexOf(starIdx) * 0.05; // Sequential heart animation
         
         return (
@@ -125,11 +131,12 @@ export const Illustration = ({ mouseEnter }: { mouseEnter: boolean }) => {
           >
             <Star
               isGlowing={isGlowing}
-              delay={mouseEnter && heartPattern.includes(starIdx) ? heartDelay : delay}
+              isVisible={isVisible}
+              delay={mouseEnter && isHeartStar ? heartDelay : delay}
             />
-            {mouseEnter && heartPattern.includes(starIdx) && <Glow delay={heartDelay} />}
+            {mouseEnter && isHeartStar && <Glow delay={heartDelay} />}
             <AnimatePresence mode="wait">
-              {!mouseEnter && isGlowing && <Glow delay={delay} />}
+              {!mouseEnter && isRandomGlowing && <Glow delay={delay} />}
             </AnimatePresence>
           </div>
         );
@@ -138,16 +145,18 @@ export const Illustration = ({ mouseEnter }: { mouseEnter: boolean }) => {
   );
 };
 
-const Star = ({ isGlowing, delay }: { isGlowing: boolean; delay: number }) => {
+const Star = ({ isGlowing, isVisible = true, delay }: { isGlowing: boolean; isVisible?: boolean; delay: number }) => {
   return (
     <motion.div
       key={delay}
       initial={{
         scale: 1,
+        opacity: 1,
       }}
       animate={{
         scale: isGlowing ? [1, 1.2, 2.5, 2.2, 1.5] : 1,
         background: isGlowing ? "#ff1493" : "#666", // Deep pink for heart
+        opacity: isVisible ? 1 : 0, // Hide stars when not visible
       }}
       transition={{
         duration: 2,
