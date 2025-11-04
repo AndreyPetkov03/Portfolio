@@ -41,7 +41,7 @@ export const projectsData: ProjectData[] = [
     id: 5,
     image: "/projectImages/Survive the Desert.png",
     title: "Survive the Desert",
-    description: "A survival game set in a desert environment, where players must gather resources, build shelters, and fend off threats. Built with Unity and C#, it features a dynamic weather system and day-night cycle.",
+    description: "A desert survival game created using Roblox Studio, Lua, Blender, and Figma for the game’s UI. Players must gather resources, manage thirst, and mine for materials while exploring a randomly generated environment that changes each run. The world features a full day–night cycle, and when night falls, players must also fight off hostile creatures, turning resource gathering into strategic preparation for survival.",
     tooltipType: "robloxGame",
     className: "",
     link: ""
