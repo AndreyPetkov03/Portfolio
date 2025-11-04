@@ -16,6 +16,12 @@ import FramerMotionLogo from '../../../public/LOGOS/framer-motion.svg';
 import FigmaLogo from '../../../public/LOGOS/figma.png';
 import gitLogo from '../../../public/LOGOS/git.png';
 import dockerLogo from '../../../public/LOGOS/Docker.svg';
+import SupabaseLogo from '../../../public/LOGOS/Supabase.svg';
+import SplineLogo from '../../../public/LOGOS/spline.webp';
+import RustLogo from '../../../public/LOGOS/Rust.png';
+import LuaLogo from '../../../public/LOGOS/Lua.svg';
+import JavaLogo from '../../../public/LOGOS/java.png';
+import BlenderLogo from '../../../public/LOGOS/Blender.svg';
 
 
 export function SkillsMarquee() {
@@ -96,6 +102,36 @@ const testimonials = [
   },
   {
     quote: <Image src={dockerLogo} alt="Docker" />,
+    name: "",
+    title: "",
+  },
+  {
+    quote: <Image src={SupabaseLogo} alt="Supabase" />,
+    name: "",
+    title: "",
+  },
+  {
+    quote: <Image src={SplineLogo} alt="Spline" />,
+    name: "",
+    title: "",
+  },
+  {
+    quote: <Image src={RustLogo} alt="Rust" />,
+    name: "",
+    title: "",
+  },
+  {
+    quote: <Image src={LuaLogo} alt="Lua" />,
+    name: "",
+    title: "",
+  },
+  {
+    quote: <Image src={JavaLogo} alt="Java" />,
+    name: "",
+    title: "",
+  },
+  {
+    quote: <Image src={BlenderLogo} alt="Blender" />,
     name: "",
     title: "",
   },
