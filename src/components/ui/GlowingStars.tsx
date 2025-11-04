@@ -70,24 +70,24 @@ export const Illustration = ({ mouseEnter }: { mouseEnter: boolean }) => {
 
   const highlightedStars = useRef<number[]>([]);
 
-  // Heart pattern - perfectly symmetric in a 15-column grid
+  // Heart pattern - perfectly symmetric in a 15-column grid (moved up 1 row)
   const heartPattern = [
-    // Row 2: Top curves (symmetric with gap in middle)
-    33, 34, 35, 39, 40, 41,
+    // Row 1: Top curves (symmetric with gap in middle)
+    18, 19, 20, 24, 25, 26,
+    // Row 2: Full heart width (symmetric - 10 stars)
+    32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42,
     // Row 3: Full heart width (symmetric - 10 stars)
     47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57,
-    // Row 4: Full heart width (symmetric - 10 stars)
-    62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72,
-    // Row 5: Narrower (symmetric - 8 stars)
-    78, 79, 80, 81, 82, 83, 84, 85, 86,
-    // Row 6: More narrow (symmetric - 6 stars)
-    94, 95, 96, 97, 98, 99, 100,
-    // Row 7: Narrower (symmetric - 4 stars)
-    110, 111, 112, 113, 114,
-    // Row 8: Very narrow (symmetric - 2 stars)
-    126, 127, 128,
-    // Row 9: Point (1 star in center)
-    142
+    // Row 4: Narrower (symmetric - 8 stars)
+    63, 64, 65, 66, 67, 68, 69, 70, 71,
+    // Row 5: More narrow (symmetric - 6 stars)
+    79, 80, 81, 82, 83, 84, 85,
+    // Row 6: Narrower (symmetric - 4 stars)
+    95, 96, 97, 98, 99,
+    // Row 7: Very narrow (symmetric - 2 stars)
+    111, 112, 113,
+    // Row 8: Point (1 star in center)
+    127
   ];
 
   useEffect(() => {
