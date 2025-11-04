@@ -22,7 +22,7 @@ export interface TooltipItem {
 }
 
 export interface ProjectTooltipProps {
-  type: 'portfolio' | 'intranet' | 'gallery' | 'weatherApp';
+  type: 'portfolio' | 'intranet' | 'gallery' | 'weatherApp' | 'robloxGame';
 }
 
 export interface ProjectCardProps {
