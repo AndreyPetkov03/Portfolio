@@ -42,7 +42,7 @@ export const projectsData: ProjectData[] = [
     image: "/projectImages/Survive the Desert.png",
     title: "Survive the Desert",
     description: "A survival game set in a desert environment, where players must gather resources, build shelters, and fend off threats. Built with Unity and C#, it features a dynamic weather system and day-night cycle.",
-    tooltipType: "weatherApp",
+    tooltipType: "robloxGame",
     className: "",
     link: ""
   },

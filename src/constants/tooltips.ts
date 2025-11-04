@@ -31,4 +31,9 @@ export const TOOLTIP_SETS = {
     { id: 3, name: "", designation: "TypeScript", image: "/projectIcons/typescriptProject.svg" },
     { id: 4, name: "", designation: "Vite", image: "/projectIcons/viteProject.svg" },
   ],
+  robloxGame: [
+    { id: 1, name: "", designation: "Roblox Studio", image: "/projectIcons/robloxstudioProject.svg" },
+    { id: 2, name: "", designation: "Lua", image: "/projectIcons/luaProject.svg" },
+    { id: 3, name: "", designation: "Blender", image: "/projectIcons/blenderProject.svg" },
+  ],
 };
