@@ -36,5 +36,23 @@ export const projectsData: ProjectData[] = [
     tooltipType: "weatherApp",
     className: "",
     link: "https://github.com/AndreyPetkov03/weather-app"
+  },
+  {
+    id: 5,
+    image: "/projectImages/Survive the Desert.png",
+    title: "Survive the Desert",
+    description: "A survival game set in a desert environment, where players must gather resources, build shelters, and fend off threats. Built with Unity and C#, it features a dynamic weather system and day-night cycle.",
+    tooltipType: "weatherApp",
+    className: "",
+    link: ""
+  },
+  {
+    id: 6,
+    image: "/images/weatherApp.png",
+    title: "Weather App",
+    description: "A simple weather application built to experiment with Vite and its fast development environment. It uses React, Tailwind, and TypeScript, retrieves live weather data from WeatherAPI, and features smooth Lottie animations for visual feedback.",
+    tooltipType: "weatherApp",
+    className: "",
+    link: "https://github.com/AndreyPetkov03/weather-app"
   }
 ];
