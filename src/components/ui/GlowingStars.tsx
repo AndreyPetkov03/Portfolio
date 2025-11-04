@@ -70,16 +70,38 @@ export const Illustration = ({ mouseEnter }: { mouseEnter: boolean }) => {
 
   const highlightedStars = useRef<number[]>([]);
 
+  // Heart pattern - indices that form a heart shape in a 20x10 grid
+  const heartPattern = [
+    // Row 1: Top curves
+    23, 24, 25, 27, 28, 29,
+    // Row 2: Full width
+    42, 43, 44, 45, 46, 47, 48, 49,
+    // Row 3: Full width
+    62, 63, 64, 65, 66, 67, 68, 69,
+    // Row 4: Slightly narrower
+    82, 83, 84, 85, 86, 87, 88, 89,
+    // Row 5: More narrow
+    103, 104, 105, 106, 107, 108,
+    // Row 6: Narrower
+    124, 125, 126, 127,
+    // Row 7: Very narrow
+    145, 146,
+    // Row 8: Point
+    165
+  ];
+
   useEffect(() => {
     const interval = setInterval(() => {
-      highlightedStars.current = Array.from({ length: 5 }, () =>
-        Math.floor(Math.random() * stars)
-      );
-      setGlowingStars([...highlightedStars.current]);
+      if (!mouseEnter) {
+        highlightedStars.current = Array.from({ length: 5 }, () =>
+          Math.floor(Math.random() * stars)
+        );
+        setGlowingStars([...highlightedStars.current]);
+      }
     }, 3000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [mouseEnter]);
 
   return (
     <div
@@ -91,21 +113,23 @@ export const Illustration = ({ mouseEnter }: { mouseEnter: boolean }) => {
       }}
     >
       {[...Array(stars)].map((_, starIdx) => {
-        const isGlowing = glowingStars.includes(starIdx);
+        const isGlowing = mouseEnter ? heartPattern.includes(starIdx) : glowingStars.includes(starIdx);
         const delay = (starIdx % 10) * 0.1;
         const staticDelay = starIdx * 0.01;
+        const heartDelay = heartPattern.indexOf(starIdx) * 0.05; // Sequential heart animation
+        
         return (
           <div
             key={`matrix-col-${starIdx}}`}
             className="relative flex items-center justify-center"
           >
             <Star
-              isGlowing={mouseEnter ? true : isGlowing}
-              delay={mouseEnter ? staticDelay : delay}
+              isGlowing={isGlowing}
+              delay={mouseEnter && heartPattern.includes(starIdx) ? heartDelay : delay}
             />
-            {mouseEnter && <Glow delay={staticDelay} />}
+            {mouseEnter && heartPattern.includes(starIdx) && <Glow delay={heartDelay} />}
             <AnimatePresence mode="wait">
-              {isGlowing && <Glow delay={delay} />}
+              {!mouseEnter && isGlowing && <Glow delay={delay} />}
             </AnimatePresence>
           </div>
         );
@@ -123,7 +147,7 @@ const Star = ({ isGlowing, delay }: { isGlowing: boolean; delay: number }) => {
       }}
       animate={{
         scale: isGlowing ? [1, 1.2, 2.5, 2.2, 1.5] : 1,
-        background: isGlowing ? "#fff" : "#666",
+        background: isGlowing ? "#ff1493" : "#666", // Deep pink for heart
       }}
       transition={{
         duration: 2,
@@ -152,7 +176,7 @@ const Glow = ({ delay }: { delay: number }) => {
       exit={{
         opacity: 0,
       }}
-      className="absolute  left-1/2 -translate-x-1/2 z-10 h-[4px] w-[4px] rounded-full bg-violet-900 blur-[1px] shadow-2xl shadow-blue-400"
+      className="absolute left-1/2 -translate-x-1/2 z-10 h-[4px] w-[4px] rounded-full bg-pink-500 blur-[1px] shadow-2xl shadow-pink-400"
     />
   );
 };
