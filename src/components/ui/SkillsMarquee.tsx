@@ -22,6 +22,7 @@ import LuaLogo from '../../../public/LOGOS/Lua.svg';
 import JavaLogo from '../../../public/LOGOS/java.png';
 import BlenderLogo from '../../../public/LOGOS/Blender.svg';
 import SolidityLogo from '../../../public/LOGOS/solidity.svg';
+import NodejsLogo from '../../../public/LOGOS/nodejs.png';
 
 
 export function SkillsMarquee() {
@@ -137,6 +138,11 @@ const testimonials = [
   },
   {
     quote: <Image src={SolidityLogo} alt="Solidity" />,
+    name: "",
+    title: "",
+  },
+  {
+    quote: <Image src={NodejsLogo} alt="Node.js" />,
     name: "",
     title: "",
   },
