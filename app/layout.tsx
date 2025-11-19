@@ -3,8 +3,13 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
 
-
-const inter = Inter({ subsets: ["latin"] });
+// Optimize font loading to prevent render blocking
+const inter = Inter({ 
+  subsets: ["latin"],
+  display: 'swap', // Prevents FOIT (Flash of Invisible Text)
+  preload: true,
+  fallback: ['-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif']
+});
 
 export const metadata: Metadata = {
   title: "Andrey Petkov - Full Stack Developer & Software Engineer Portfolio",
@@ -55,6 +60,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Preload critical resources */}
+        <link rel="preload" href="/images/portfolioImage.png" as="image" />
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+      </head>
       <body className={inter.className}>
         <ThemeProvider
             attribute="class"
@@ -63,7 +74,8 @@ export default function RootLayout({
             disableTransitionOnChange
           >
             {children}
-          </ThemeProvider></body>
+          </ThemeProvider>
+      </body>
     </html>
   );
 }

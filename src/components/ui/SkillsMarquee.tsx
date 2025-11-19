@@ -48,22 +48,22 @@ export function SkillsMarquee() {
 
 const testimonials = [
   {
-    quote: <Image src={ReactLogo} alt="React" />,
+    quote: <Image src={ReactLogo} alt="React" loading="lazy" className="transition-transform hover:scale-110" />,
     name: "",
     title: "",
   },
   {
-    quote: <Image src={PhpLogo} alt="Php" />,
+    quote: <Image src={PhpLogo} alt="Php" loading="lazy" className="transition-transform hover:scale-110" />,
     name: "",
     title: "",
   },
   {
-    quote: <Image src={SqlLogo} alt="Sql" />,
+    quote: <Image src={SqlLogo} alt="Sql" loading="lazy" className="transition-transform hover:scale-110" />,
     name: "",
-    title: "",
+    title: "php",
   },
   {
-    quote: <Image src={SassLogo} alt="Sass" />,
+    quote: <Image src={SassLogo} alt="Sass" loading="lazy" className="transition-transform hover:scale-110" />,
     name: "",
     title: "",
   },

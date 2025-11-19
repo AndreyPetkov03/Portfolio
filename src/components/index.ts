@@ -4,6 +4,7 @@ export { ProjectTooltip, AnimatedTooltipPreview } from "./ui/ProjectTooltip";
 export { AnimatedTooltip } from "./ui/AnimatedTooltip";
 export { CardContainer, CardBody, CardItem, useMouseEnter } from "./ui/Card";
 export { FlipWords } from "./ui/FlipWords";
+export { LoadingSpinner, SectionLoadingPlaceholder } from "./ui/LoadingSpinner";
 
 // Section Components  
 export { default as ProjectsSection } from "./sections/ProjectsSection";
