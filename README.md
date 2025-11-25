@@ -170,8 +170,8 @@ This portfolio embodies modern web design principles:
 ## 📞 Contact & Links
 
 - **Website**: [andrey-petkov.com](https://andrey-petkov.com)
-- **GitHub**: [@ASTROFO7](https://github.com/ASTROFO7)
-- **Email**: Contact form available on the website
+- **GitHub**: [@AndreyPetkov03](https://github.com/AndreyPetkov03)
+- **Email**: petkovandrey03@gmail.com
 
 ## 📄 License
 
@@ -179,4 +179,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-Built with ❤️ by Andrey Petkov | © 2024
+Built with ❤️ by Andrey Petkov | © 2025
