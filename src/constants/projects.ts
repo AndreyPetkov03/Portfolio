@@ -58,7 +58,7 @@ export const projectsData: ProjectData[] = [
   {
     id: 7,
     image: "/projectImages/gymcoachAI.png",
-    title: "GymCoach AI (WIP)",
+    title: "GymCoach AI",
     description: "An AI-powered gym coaching application that generates personalized workout and nutrition plans based on user goals and fitness level. Built with a modern tech stack, it provides real-time feedback and progress tracking to help users stay on top of their training.",
     tooltipType: "gymcoachAI",
     className: "",
@@ -67,7 +67,7 @@ export const projectsData: ProjectData[] = [
   {
     id: 8,
     image: "/projectImages/webappteck.png",
-    title: "WebApp Teck (WIP)",
+    title: "WebAppTeck",
     description: "A web application developed for Teck, providing an internal platform for managing workflows, resources, and team collaboration. The project focuses on clean UI, performance, and scalability.",
     tooltipType: "webappteck",
     className: "",

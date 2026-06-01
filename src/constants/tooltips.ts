@@ -46,15 +46,16 @@ export const TOOLTIP_SETS = {
     { id: 6, name: "", designation: "Rust", image: "/projectIcons/rustProject.svg" },
   ],
   gymcoachAI: [
-    { id: 1, name: "", designation: "React", image: "/projectIcons/reactProject.svg" },
-    { id: 2, name: "", designation: "Next.js", image: "/projectIcons/nextProject.svg" },
-    { id: 3, name: "", designation: "Tailwind", image: "/projectIcons/tailwindProject.svg" },
-    { id: 4, name: "", designation: "TypeScript", image: "/projectIcons/typescriptProject.svg" },
+    { id: 1, name: "", designation: "Angular", image: "/projectIcons/angularProject.svg" },
+    { id: 2, name: "", designation: "TypeScript", image: "/projectIcons/typescriptProject.svg" },
+    { id: 3, name: "", designation: "Sass", image: "/projectIcons/sassProject.svg" },
+    { id: 4, name: "", designation: "Stripe", image: "/projectIcons/stripeProject.svg" },
+    { id: 5, name: "", designation: "Gemini", image: "/projectIcons/geminiProject.svg" },
+    { id: 6, name: "", designation: "Supabase", image: "/projectIcons/supabaseProject.svg" },
   ],
   webappteck: [
     { id: 1, name: "", designation: "React", image: "/projectIcons/reactProject.svg" },
-    { id: 2, name: "", designation: "Next.js", image: "/projectIcons/nextProject.svg" },
-    { id: 3, name: "", designation: "Tailwind", image: "/projectIcons/tailwindProject.svg" },
-    { id: 4, name: "", designation: "TypeScript", image: "/projectIcons/typescriptProject.svg" },
+    { id: 2, name: "", designation: "TypeScript", image: "/projectIcons/typescriptProject.svg" },
+    { id: 3, name: "", designation: "CSS", image: "/projectIcons/cssProject.svg" },
   ],
 };
