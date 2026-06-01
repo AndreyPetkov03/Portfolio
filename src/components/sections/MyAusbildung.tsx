@@ -59,11 +59,11 @@ const content = [
     content: (
       <div className="h-full w-full bg-black flex items-center justify-center text-white">
         <Image
-          src="/images/Intranet2.png"
+          src="/projectImages/irsIntranet.png"
           width={300}
           height={300}
           className="h-full w-full object-contain"
-          alt="linear board demo"
+          alt="IRS Intranet"
         />
       </div>
     ),
