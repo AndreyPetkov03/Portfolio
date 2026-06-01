@@ -12,7 +12,7 @@ export const projectsData: ProjectData[] = [
   },
   {
     id: 2,
-    image: "/images/Intranet3.png",
+    image: "/projectImages/irsIntranet.png",
     title: "The Intranet",
     description: "Developed during my apprenticeship at the International Repair Service, I was fully responsible for this project from planning to deployment. It includes a homepage overview, blog, announcements page, appointments system, image gallery, and an admin dashboard for managing content and permissions. All visuals, including logos and custom SVGs, were designed in Figma.",
     tooltipType: "intranet",
@@ -52,6 +52,24 @@ export const projectsData: ProjectData[] = [
     title: "Crypto Casino (WIP)",
     description: "A decentralized casino platform where players can place bets using cryptocurrency across both Solana and Ethereum networks. It uses provably fair algorithms and smart contracts written in Solidity and Rust to ensure secure and transparent gameplay. Built with React, Next.js, and TypeScript for a smooth real-time betting experience.",
     tooltipType: "cryptoCasino",
+    className: "",
+    link: ""
+  },
+  {
+    id: 7,
+    image: "/projectImages/gymcoachAI.png",
+    title: "GymCoach AI (WIP)",
+    description: "An AI-powered gym coaching application that generates personalized workout and nutrition plans based on user goals and fitness level. Built with a modern tech stack, it provides real-time feedback and progress tracking to help users stay on top of their training.",
+    tooltipType: "gymcoachAI",
+    className: "",
+    link: ""
+  },
+  {
+    id: 8,
+    image: "/projectImages/webappteck.png",
+    title: "WebApp Teck (WIP)",
+    description: "A web application developed for Teck, providing an internal platform for managing workflows, resources, and team collaboration. The project focuses on clean UI, performance, and scalability.",
+    tooltipType: "webappteck",
     className: "",
     link: ""
   }

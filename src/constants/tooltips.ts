@@ -45,4 +45,16 @@ export const TOOLTIP_SETS = {
     { id: 5, name: "", designation: "Solidity", image: "/projectIcons/solidityProject.svg" },
     { id: 6, name: "", designation: "Rust", image: "/projectIcons/rustProject.svg" },
   ],
+  gymcoachAI: [
+    { id: 1, name: "", designation: "React", image: "/projectIcons/reactProject.svg" },
+    { id: 2, name: "", designation: "Next.js", image: "/projectIcons/nextProject.svg" },
+    { id: 3, name: "", designation: "Tailwind", image: "/projectIcons/tailwindProject.svg" },
+    { id: 4, name: "", designation: "TypeScript", image: "/projectIcons/typescriptProject.svg" },
+  ],
+  webappteck: [
+    { id: 1, name: "", designation: "React", image: "/projectIcons/reactProject.svg" },
+    { id: 2, name: "", designation: "Next.js", image: "/projectIcons/nextProject.svg" },
+    { id: 3, name: "", designation: "Tailwind", image: "/projectIcons/tailwindProject.svg" },
+    { id: 4, name: "", designation: "TypeScript", image: "/projectIcons/typescriptProject.svg" },
+  ],
 };
