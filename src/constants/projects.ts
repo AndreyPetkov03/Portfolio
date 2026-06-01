@@ -48,8 +48,8 @@ export const projectsData: ProjectData[] = [
   },
   {
     id: 6,
-    image: "/projectImages/etheriumSolana.png",
-    title: "Crypto Casino (WIP)",
+    image: "/projectImages/Web3Casino.png",
+    title: "Web3 Crypto Casino",
     description: "A decentralized casino platform where players can place bets using cryptocurrency across both Solana and Ethereum networks. It uses provably fair algorithms and smart contracts written in Solidity and Rust to ensure secure and transparent gameplay. Built with React, Next.js, and TypeScript for a smooth real-time betting experience.",
     tooltipType: "cryptoCasino",
     className: "",
