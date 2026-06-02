@@ -8,7 +8,8 @@ export const projectsData: ProjectData[] = [
     description: "Developed to showcase my skills in modern web development, this was one of my first React projects. Built with Next.js, React, Tailwind, Framer Motion, and TypeScript, it features a 3D iPhone created in Spline and a custom background designed in Figma. The project gave me hands-on experience with interactive UI animations, responsive design, and component-based architecture.",
     tooltipType: "portfolio",
     className: "",
-    link: "https://github.com/AndreyPetkov03/Portfolio"
+    githubLink: "https://github.com/AndreyPetkov03/Portfolio",
+    liveLink: "https://example.com"
   },
   {
     id: 2,
@@ -17,7 +18,6 @@ export const projectsData: ProjectData[] = [
     description: "Developed during my apprenticeship at the International Repair Service, I was fully responsible for this project from planning to deployment. It includes a homepage overview, blog, announcements page, appointments system, image gallery, and an admin dashboard for managing content and permissions. All visuals, including logos and custom SVGs, were designed in Figma.",
     tooltipType: "intranet",
     className: "",
-    link: ""
   },
   {
     id: 3,
@@ -26,7 +26,8 @@ export const projectsData: ProjectData[] = [
     description: "An Instagram-inspired gallery app that allows users to log in, upload images, name them, and add descriptions to create their personal 'art' gallery. Each user has a profile page where their gallery can be viewed by others. It was built using React, Next.js, TypeScript, and Tailwind, with Supabase handling authentication, storage, and backend data.",
     tooltipType: "gallery",
     className: "",
-    link: "https://github.com/AndreyPetkov03/gallery-app"
+    githubLink: "https://github.com/AndreyPetkov03/gallery-app",
+    liveLink: "https://example.com"
   },
   {
     id: 4,
@@ -35,7 +36,8 @@ export const projectsData: ProjectData[] = [
     description: "A simple weather application built to experiment with Vite and its fast development environment. It uses React, Tailwind, and TypeScript, retrieves live weather data from WeatherAPI, and features smooth Lottie animations for visual feedback.",
     tooltipType: "weatherApp",
     className: "",
-    link: "https://github.com/AndreyPetkov03/weather-app"
+    githubLink: "https://github.com/AndreyPetkov03/weather-app",
+    liveLink: "https://example.com"
   },
   {
     id: 5,
@@ -44,7 +46,6 @@ export const projectsData: ProjectData[] = [
     description: "A desert survival game created using Roblox Studio, Lua, Blender, and Figma for the UI. Players gather resources, manage thirst, and mine materials while exploring a randomly generated world. The game features a full day–night cycle, and when night falls, players must fight off hostile creatures, making preparation essential.",
     tooltipType: "robloxGame",
     className: "",
-    link: ""
   },
   {
     id: 6,
@@ -53,7 +54,6 @@ export const projectsData: ProjectData[] = [
     description: "A decentralized casino platform where players can place bets using cryptocurrency across both Solana and Ethereum networks. It uses provably fair algorithms and smart contracts written in Solidity and Rust to ensure secure and transparent gameplay. Built with React, Next.js, and TypeScript for a smooth real-time betting experience.",
     tooltipType: "cryptoCasino",
     className: "",
-    link: ""
   },
   {
     id: 7,
@@ -62,7 +62,8 @@ export const projectsData: ProjectData[] = [
     description: "GymCoach AI is an AI-powered fitness platform where users interact with four unique coaching personalities for personalized workout guidance, motivation, and training advice. Built with Angular, Gemini AI, Stripe, and Supabase Edge Functions, it delivers an engaging and interactive coaching experience.",
     tooltipType: "gymcoachAI",
     className: "",
-    link: "https://github.com/AndreyPetkov03/GymcoachAI"
+    githubLink: "https://github.com/AndreyPetkov03/GymcoachAI",
+    liveLink: "https://example.com"
   },
   {
     id: 8,
@@ -71,6 +72,5 @@ export const projectsData: ProjectData[] = [
     description: "Contributed to the redesign and modernization of the international repair service's web application during my apprenticeship, improving usability, performance, and overall user experience. Working with a modern web technology stack, I helped streamline workflows, enhance the interface, and create a more efficient and intuitive platform for employees.",
     tooltipType: "webappteck",
     className: "",
-    link: ""
   }
 ];

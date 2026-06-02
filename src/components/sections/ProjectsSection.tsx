@@ -19,7 +19,8 @@ export default function ProjectsSection() {
                         description={project.description}
                         tooltipComponent={<ProjectTooltip type={project.tooltipType} />}
                         className={project.className}
-                        link={project.link}
+                        githubLink={project.githubLink}
+                        liveLink={project.liveLink}
                     />
                 ))}
             </div>

@@ -11,7 +11,8 @@ export interface ProjectData {
   description: string;
   tooltipType: 'portfolio' | 'intranet' | 'gallery' | 'weatherApp' | 'robloxGame' | 'cryptoCasino' | 'gymcoachAI' | 'webappteck';
   className?: string;
-  link?: string;
+  githubLink?: string;
+  liveLink?: string;
 }
 
 export interface TooltipItem {
@@ -31,7 +32,8 @@ export interface ProjectCardProps {
   description: string;
   tooltipComponent: React.ReactNode;
   className?: string;
-  link?: string;
+  githubLink?: string;
+  liveLink?: string;
 }
 
 export interface ExperienceItem {
