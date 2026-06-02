@@ -9,7 +9,7 @@ export const projectsData: ProjectData[] = [
     tooltipType: "portfolio",
     className: "",
     githubLink: "https://github.com/AndreyPetkov03/Portfolio",
-    liveLink: "https://example.com"
+    liveLink: "https://www.andrey-petkov.com"
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ export const projectsData: ProjectData[] = [
     tooltipType: "gallery",
     className: "",
     githubLink: "https://github.com/AndreyPetkov03/gallery-app",
-    liveLink: "https://example.com"
+    liveLink: "https://gallery.andrey-petkov.com"
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ export const projectsData: ProjectData[] = [
     tooltipType: "weatherApp",
     className: "",
     githubLink: "https://github.com/AndreyPetkov03/weather-app",
-    liveLink: "https://example.com"
+    liveLink: "https://weather.andrey-petkov.com"
   },
   {
     id: 5,
@@ -63,7 +63,7 @@ export const projectsData: ProjectData[] = [
     tooltipType: "gymcoachAI",
     className: "",
     githubLink: "https://github.com/AndreyPetkov03/GymcoachAI",
-    liveLink: "https://example.com"
+    liveLink: "https://gymcoach.andrey-petkov.com"
   },
   {
     id: 8,
