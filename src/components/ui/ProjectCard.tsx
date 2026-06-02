@@ -59,7 +59,7 @@ export function ProjectCard({ image, title, description, tooltipComponent, class
                 className="px-3 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold flex items-center gap-2 hover:bg-gray-800 dark:hover:bg-gray-200 transition-colors"
                 onClick={() => window.open(liveLink, '_blank')}
               >
-                Link
+                Preview
                 <Image src="/LOGOS/link.svg" alt="Link" width={14} height={14} className="invert dark:invert-0" />
               </CardItem>
             )}
