@@ -59,10 +59,10 @@ export const projectsData: ProjectData[] = [
     id: 7,
     image: "/projectImages/gymcoachAI.png",
     title: "GymCoach AI",
-    description: "An AI-powered gym coaching application that generates personalized workout and nutrition plans based on user goals and fitness level. Built with a modern tech stack, it provides real-time feedback and progress tracking to help users stay on top of their training.",
+    description: "GymCoach AI is an AI-powered fitness platform where users interact with four unique coaching personalities for personalized workout guidance, motivation, and training advice. Built with Angular, Gemini AI, Stripe, and Supabase Edge Functions, it delivers an engaging and interactive coaching experience.",
     tooltipType: "gymcoachAI",
     className: "",
-    link: ""
+    link: "https://github.com/AndreyPetkov03/GymcoachAI"
   },
   {
     id: 8,
