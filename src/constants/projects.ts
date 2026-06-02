@@ -68,7 +68,7 @@ export const projectsData: ProjectData[] = [
     id: 8,
     image: "/projectImages/webappteck.png",
     title: "WebAppTeck",
-    description: "A web application developed for Teck, providing an internal platform for managing workflows, resources, and team collaboration. The project focuses on clean UI, performance, and scalability.",
+    description: "Contributed to the redesign and modernization of the international repair service's web application during my apprenticeship, improving usability, performance, and overall user experience. Working with a modern web technology stack, I helped streamline workflows, enhance the interface, and create a more efficient and intuitive platform for employees.",
     tooltipType: "webappteck",
     className: "",
     link: ""

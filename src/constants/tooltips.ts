@@ -57,5 +57,6 @@ export const TOOLTIP_SETS = {
     { id: 1, name: "", designation: "React", image: "/projectIcons/reactProject.svg" },
     { id: 2, name: "", designation: "TypeScript", image: "/projectIcons/typescriptProject.svg" },
     { id: 3, name: "", designation: "CSS", image: "/projectIcons/cssProject.svg" },
+    { id: 4, name: "", designation: "Figma", image: "/projectIcons/figmaProject.svg" },
   ],
 };
