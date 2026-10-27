@@ -12,24 +12,36 @@ export const GlowingStarsBackgroundCard = ({
   children?: React.ReactNode;
 }) => {
   const [mouseEnter, setMouseEnter] = useState(false);
+  // Touch screens have no hover (and fire fake mouseenter on tap), so there a tap toggles the heart instead
+  const canHover = () => window.matchMedia("(hover: hover)").matches;
 
   return (
     <div
       onMouseEnter={() => {
-        setMouseEnter(true);
+        if (canHover()) setMouseEnter(true);
       }}
       onMouseLeave={() => {
-        setMouseEnter(false);
+        if (canHover()) setMouseEnter(false);
+      }}
+      onClick={() => {
+        if (!canHover()) setMouseEnter((v) => !v);
       }}
       className={cn(
-        "bg-[#0C0E23] p-4 max-w-md max-h-[20rem] h-full w-full rounded-xl border border-[#1c1c3f]",
+        "relative p-4 h-full w-full overflow-hidden rounded-xl border border-white/[0.06] bg-white/[0.02] flex flex-col items-center justify-center cursor-pointer",
         className
       )}
     >
-      <div className="flex justify-center items-center">
+      <div
+        aria-hidden
+        className={cn(
+          "pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_50%_45%,rgb(236_72_153/0.18),transparent_60%)] transition-opacity duration-700",
+          mouseEnter ? "opacity-100" : "opacity-0"
+        )}
+      />
+      <div className="relative flex w-full flex-1 items-center justify-center">
         <Illustration mouseEnter={mouseEnter} />
       </div>
-      <div className="">{children}</div>
+      {children}
     </div>
   );
 };
@@ -105,7 +117,7 @@ export const Illustration = ({ mouseEnter }: { mouseEnter: boolean }) => {
 
   return (
     <div
-      className="h-56 p-1 w-full"
+      className="aspect-[3/2] max-h-56 md:max-h-32 p-1 w-full max-w-sm"
       style={{
         display: "grid",
         gridTemplateColumns: `repeat(${columns}, 1fr)`,
@@ -155,7 +167,7 @@ const Star = ({ isGlowing, isVisible = true, delay }: { isGlowing: boolean; isVi
       }}
       animate={{
         scale: isGlowing ? [1, 1.2, 2.5, 2.2, 1.5] : 1,
-        background: isGlowing ? "#ff1493" : "#666", // Deep pink for heart
+        background: isGlowing ? "#ec4899" : "#52525b", // Pink for heart, zinc for idle stars
         opacity: isVisible ? 1 : 0, // Hide stars when not visible
       }}
       transition={{

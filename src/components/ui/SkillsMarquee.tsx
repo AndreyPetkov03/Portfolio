@@ -30,7 +30,7 @@ import UnityLogo from '../../../public/LOGOS/UnityLogo.png';
 
 export function SkillsMarquee() {
   return (
-    <div className=" h-[20rem] rounded-md flex flex-col antialiased bg-black items-center justify-center relative overflow-hidden">
+    <div className="relative -mx-6 flex flex-1 flex-col justify-center overflow-hidden py-2 md:-mx-8">
       <InfiniteMovingCards
         items={testimonials}
         direction="right"
@@ -50,117 +50,117 @@ export function SkillsMarquee() {
 
 const testimonials = [
   {
-    quote: <Image src={ReactLogo} alt="React" loading="lazy" className="transition-transform hover:scale-110 cursor-pointer" />,
+    quote: <Image src={ReactLogo} alt="React" loading="lazy" className="h-full w-full object-contain transition-transform duration-300 hover:scale-110" />,
     name: "",
     title: "",
   },
   {
-    quote: <Image src={PhpLogo} alt="Php" loading="lazy" className="transition-transform hover:scale-110 cursor-pointer" />,
+    quote: <Image src={PhpLogo} alt="Php" loading="lazy" className="h-full w-full object-contain transition-transform duration-300 hover:scale-110" />,
     name: "",
     title: "",
   },
   {
-    quote: <Image src={SqlLogo} alt="Sql" loading="lazy" className="transition-transform hover:scale-110 cursor-pointer" />,
+    quote: <Image src={SqlLogo} alt="Sql" loading="lazy" className="h-full w-full object-contain transition-transform duration-300 hover:scale-110" />,
     name: "",
     title: "php",
   },
   {
-    quote: <Image src={SassLogo} alt="Sass" loading="lazy" className="transition-transform hover:scale-110 cursor-pointer" />,
+    quote: <Image src={SassLogo} alt="Sass" loading="lazy" className="h-full w-full object-contain transition-transform duration-300 hover:scale-110" />,
     name: "",
     title: "",
   },
   {
-    quote: <Image src={TailwindLogo} alt="Tailwind" loading="lazy" className="transition-transform hover:scale-110 cursor-pointer" />,
+    quote: <Image src={TailwindLogo} alt="Tailwind" loading="lazy" className="h-full w-full object-contain transition-transform duration-300 hover:scale-110" />,
     name: "",
     title: "",
   },
   {
-    quote: <Image src={ViteLogo} alt="Vite" loading="lazy" className="transition-transform hover:scale-110 cursor-pointer" />,
+    quote: <Image src={ViteLogo} alt="Vite" loading="lazy" className="h-full w-full object-contain transition-transform duration-300 hover:scale-110" />,
     name: "",
     title: "",
   },
   {
-    quote: <Image src={TypescriptLogo} alt="Typescript" loading="lazy" className="transition-transform hover:scale-110 cursor-pointer" />,
+    quote: <Image src={TypescriptLogo} alt="Typescript" loading="lazy" className="h-full w-full object-contain transition-transform duration-300 hover:scale-110" />,
     name: "",
     title: "",
   },
   {
-    quote: <Image src={NextjsLogo} alt="NextjsLogo" loading="lazy" className="transition-transform hover:scale-110 cursor-pointer" />,
+    quote: <Image src={NextjsLogo} alt="NextjsLogo" loading="lazy" className="h-full w-full object-contain transition-transform duration-300 hover:scale-110" />,
     name: "",
     title: "",
   },
   {
-    quote: <Image src={FigmaLogo} alt="FigmaLogo" loading="lazy" className="transition-transform hover:scale-110 cursor-pointer" />,
+    quote: <Image src={FigmaLogo} alt="FigmaLogo" loading="lazy" className="h-full w-full object-contain transition-transform duration-300 hover:scale-110" />,
     name: "",
     title: "",
   },
   {
-    quote: <Image src={gitLogo} alt="gitLogo" loading="lazy" className="transition-transform hover:scale-110 cursor-pointer" />,
+    quote: <Image src={gitLogo} alt="gitLogo" loading="lazy" className="h-full w-full object-contain transition-transform duration-300 hover:scale-110" />,
     name: "",
     title: "",
   },
   {
-    quote: <Image src={FramerMotionLogo} alt="Framermotion" loading="lazy" className="transition-transform hover:scale-110 cursor-pointer" />,
+    quote: <Image src={FramerMotionLogo} alt="Framermotion" loading="lazy" className="h-full w-full object-contain transition-transform duration-300 hover:scale-110" />,
     name: "",
     title: "",
   },
   {
-    quote: <Image src={dockerLogo} alt="Docker" loading="lazy" className="transition-transform hover:scale-110 cursor-pointer" />,
+    quote: <Image src={dockerLogo} alt="Docker" loading="lazy" className="h-full w-full object-contain transition-transform duration-300 hover:scale-110" />,
     name: "",
     title: "",
   },
   {
-    quote: <Image src={SupabaseLogo} alt="Supabase" loading="lazy" className="transition-transform hover:scale-110 cursor-pointer" />,
+    quote: <Image src={SupabaseLogo} alt="Supabase" loading="lazy" className="h-full w-full object-contain transition-transform duration-300 hover:scale-110" />,
     name: "",
     title: "",
   },
   {
-    quote: <Image src={SplineLogo} alt="Spline" loading="lazy" className="transition-transform hover:scale-110 cursor-pointer" />,
+    quote: <Image src={SplineLogo} alt="Spline" loading="lazy" className="h-full w-full object-contain transition-transform duration-300 hover:scale-110" />,
     name: "",
     title: "",
   },
   {
-    quote: <Image src={RustLogo} alt="Rust" loading="lazy" className="transition-transform hover:scale-110 cursor-pointer" />,
+    quote: <Image src={RustLogo} alt="Rust" loading="lazy" className="h-full w-full object-contain transition-transform duration-300 hover:scale-110" />,
     name: "",
     title: "",
   },
   {
-    quote: <Image src={LuaLogo} alt="Lua" loading="lazy" className="transition-transform hover:scale-110 cursor-pointer" />,
+    quote: <Image src={LuaLogo} alt="Lua" loading="lazy" className="h-full w-full object-contain transition-transform duration-300 hover:scale-110" />,
     name: "",
     title: "",
   },
   {
-    quote: <Image src={JavaLogo} alt="Java" loading="lazy" className="transition-transform hover:scale-110 cursor-pointer" />,
+    quote: <Image src={JavaLogo} alt="Java" loading="lazy" className="h-full w-full object-contain transition-transform duration-300 hover:scale-110" />,
     name: "",
     title: "",
   },
   {
-    quote: <Image src={BlenderLogo} alt="Blender" loading="lazy" className="transition-transform hover:scale-110 cursor-pointer" />,
+    quote: <Image src={BlenderLogo} alt="Blender" loading="lazy" className="h-full w-full object-contain transition-transform duration-300 hover:scale-110" />,
     name: "",
     title: "",
   },
   {
-    quote: <Image src={SolidityLogo} alt="Solidity" loading="lazy" className="transition-transform hover:scale-110 cursor-pointer" />,
+    quote: <Image src={SolidityLogo} alt="Solidity" loading="lazy" className="h-full w-full object-contain transition-transform duration-300 hover:scale-110" />,
     name: "",
     title: "",
   },
   {
-    quote: <Image src={NodejsLogo} alt="Node.js" loading="lazy" className="transition-transform hover:scale-110 cursor-pointer" />,
+    quote: <Image src={NodejsLogo} alt="Node.js" loading="lazy" className="h-full w-full object-contain transition-transform duration-300 hover:scale-110" />,
     name: "",
     title: "",
   },
   {
-    quote: <Image src={GithubLogo} alt="GitHub" loading="lazy" className="transition-transform hover:scale-110 cursor-pointer" />,
+    quote: <Image src={GithubLogo} alt="GitHub" loading="lazy" className="h-full w-full object-contain transition-transform duration-300 hover:scale-110" />,
     name: "",
     title: "",
   },
   {
-    quote: <Image src={CsharpLogo} alt="C#" loading="lazy" className="transition-transform hover:scale-110 cursor-pointer" />,
+    quote: <Image src={CsharpLogo} alt="C#" loading="lazy" className="h-full w-full object-contain transition-transform duration-300 hover:scale-110" />,
     name: "",
     title: "",
   },
   {
-    quote: <Image src={UnityLogo} alt="Unity" loading="lazy" className="transition-transform hover:scale-110 cursor-pointer" />,
+    quote: <Image src={UnityLogo} alt="Unity" loading="lazy" className="h-full w-full object-contain transition-transform duration-300 hover:scale-110" />,
     name: "",
     title: "",
   },

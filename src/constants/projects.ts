@@ -2,6 +2,16 @@ import { ProjectData } from "@/src/types";
 
 export const projectsData: ProjectData[] = [
   {
+    id: 11,
+    image: "/projectImages/portfolio2.png",
+    title: "Portfolio 2.0",
+    description: "A complete visual remaster of my original portfolio, keeping its content and structure while modernizing the design. It features a refined dark theme with a consistent typography system, a scroll-driven apprenticeship timeline, a redesigned project grid with tech stack chips, a responsive navigation with a mobile menu, and subtle scroll-triggered animations. Built with Next.js, React, TypeScript, Tailwind, and Framer Motion.",
+    tooltipType: "portfolio",
+    className: "",
+    githubLink: "https://github.com/AndreyPetkov03/Portfolio",
+    liveLink: "https://www.andrey-petkov.com"
+  },
+  {
     id: 1,
     image: "/images/portfolioImage.png",
     title: "My Portfolio",
@@ -9,7 +19,6 @@ export const projectsData: ProjectData[] = [
     tooltipType: "portfolio",
     className: "",
     githubLink: "https://github.com/AndreyPetkov03/Portfolio",
-    liveLink: "https://www.andrey-petkov.com"
   },
   {
     id: 2,
@@ -75,9 +84,9 @@ export const projectsData: ProjectData[] = [
   },
   {
     id: 9,
-    image: "/LOGOS/UnityLogo.png",
-    title: "Unity Game",
-    description: "A game built with Unity and C#, exploring core game development concepts such as gameplay mechanics, physics, and interactive systems. This project helped me deepen my understanding of the Unity engine and object-oriented programming with C#.",
+    image: "/images/SlimeDefender.png",
+    title: "Slime Defender (WIP)",
+    description: "A work-in-progress 2D pixel-art defense game built with Unity and C#. You play as a slime defending its village from waves of monsters, holding the wall with an arsenal of guns that you upgrade through a gun shop as you level up and survive each day. The game is still under active development, with new weapons, enemies, and mechanics being added.",
     tooltipType: "unityGame",
     className: "",
   },
@@ -88,5 +97,6 @@ export const projectsData: ProjectData[] = [
     description: "A new project is currently in the works. Stay tuned for more details as it takes shape!",
     tooltipType: "comingSoon",
     className: "",
+    imageFit: "contain",
   }
 ];

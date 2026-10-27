@@ -14,3 +14,4 @@ export { default as Hero } from "./sections/Hero";
 
 // Layout Components
 export { default as Footer } from "./layout/Footer";
+export { default as Navbar } from "./layout/Navbar";

@@ -13,6 +13,7 @@ export interface ProjectData {
   className?: string;
   githubLink?: string;
   liveLink?: string;
+  imageFit?: 'cover' | 'contain';
 }
 
 export interface TooltipItem {
@@ -30,10 +31,11 @@ export interface ProjectCardProps {
   image: string;
   title: string;
   description: string;
-  tooltipComponent: React.ReactNode;
+  stack: TooltipItem[];
   className?: string;
   githubLink?: string;
   liveLink?: string;
+  imageFit?: 'cover' | 'contain';
 }
 
 export interface ExperienceItem {

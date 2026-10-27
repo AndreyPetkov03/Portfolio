@@ -2,7 +2,7 @@ import Spline from '@splinetool/react-spline/next';
 
 export default function Phone3D() {
   return (
-    <main className="w-full h-[37.5rem] md:h-full hover:cursor-pointer rounded-xl relative overflow-hidden bg-[#0C0E23] border border-[#1c1c3f]">
+    <main className="relative w-full flex-1 min-h-[30rem] md:min-h-0 hover:cursor-pointer rounded-xl overflow-hidden border border-white/[0.06] bg-gradient-to-b from-white/[0.03] to-transparent">
       <Spline
         scene="https://prod.spline.design/bvW-rGMs2tMnuqxh/scene.splinecode" 
       />

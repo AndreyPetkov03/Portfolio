@@ -10,7 +10,7 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        "grid md:auto-rows-[24rem] grid-cols-1 md:grid-cols-3 gap-4 max-w-7xl mx-auto ",
+        "grid grid-cols-1 gap-4 md:auto-rows-[22rem] md:grid-cols-3",
         className
       )}
     >
@@ -21,32 +21,45 @@ export const BentoGrid = ({
 
 export const BentoGridItem = ({
   className,
+  index,
   title,
   description,
   header,
-  icon,
 }: {
   className?: string;
+  index?: number;
   title?: string | React.ReactNode;
   description?: string | React.ReactNode;
   header?: React.ReactNode;
-  icon?: React.ReactNode;
 }) => {
   return (
     <div
       className={cn(
-        "row-span-1 rounded-xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none p-4 dark:bg-black dark:border-white/[0.2] bg-white border border-transparent flex flex-col space-y-2",
+        "surface group/bento relative flex flex-col gap-5 overflow-hidden p-6 transition-colors duration-300 hover:border-white/[0.14] md:p-8",
         className
       )}
     >
-         <div className="font-sans text-lg md:text-2xl font-bold text-neutral-600 dark:text-neutral-200 mb-0 mt-0 ">
+      {/* Soft highlight that appears on hover */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute -right-24 -top-24 h-56 w-56 rounded-full bg-violet-500/10 opacity-0 blur-3xl transition-opacity duration-500 group-hover/bento:opacity-100"
+      />
+      <div className="relative">
+        {index !== undefined && (
+          <span className="font-mono text-xs text-muted-foreground">
+            {String(index + 1).padStart(2, "0")}
+          </span>
+        )}
+        <h3 className="mt-2 font-display text-xl font-semibold tracking-tight text-white md:text-2xl">
           {title}
-        </div>
-        <div className="font-sans text-sm md:text-base font-normal text-neutral-600 dark:text-neutral-300">
-          {description}
-        </div>
+        </h3>
+        {description && (
+          <p className="mt-2 max-w-xl text-sm leading-relaxed text-muted-foreground md:text-base">
+            {description}
+          </p>
+        )}
+      </div>
       {header}
-      
     </div>
   );
 };

@@ -73,26 +73,26 @@ export const InfiniteMovingCards = ({
     <div
       ref={containerRef}
       className={cn(
-        "scroller relative z-1  max-w-7xl overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
+        "scroller relative z-1  max-w-7xl overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_15%,white_85%,transparent)]",
         className
       )}
     >
       <ul
         ref={scrollerRef}
         className={cn(
-          " flex min-w-full shrink-0 gap-4 py-4 w-max flex-nowrap",
+          "flex min-w-full shrink-0 gap-3 py-1.5 w-max flex-nowrap",
           start && "animate-scroll ",
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
       >
         {items.map((item, idx) => (
           <li
-            className="w-[140px] max-w-full relative rounded-2xl border flex-shrink-0 border-[#1c1c3f] px-8 py-6 md:w-[140px] flex items-center justify-center bg-black-100"
+            className="relative flex h-20 w-20 flex-shrink-0 items-center justify-center rounded-2xl border border-white/[0.06] bg-white/[0.03] p-4 transition-colors hover:border-white/15 hover:bg-white/[0.06] md:h-24 md:w-24 md:p-5"
             style={{
               background:
                 "",
             }}
-            key={item.name}
+            key={idx}
           >
             <blockquote className="">
               <span className=" relative z-1 text-sm leading-[1.6] text-gray-100  font-normal">

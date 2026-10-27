@@ -39,12 +39,12 @@ export const FlipWords = ({
         initial={{
           opacity: 0,
           y: 10,
-          color: "#cbacf9",
+          color: "#c4b5fd",
         }}
         animate={{
           opacity: 1,
           y: 0,
-          color: "#cbacf9",
+          color: "#c4b5fd",
         }}
         transition={{
           duration: 0.4,
